@@ -1,0 +1,62 @@
+{
+  "investigationId": "inv_1786786693488_tlpcwg",
+  "projectId": "proj_1786786656482_5bjx2x",
+  "runId": "run_analysis_1786786661093_bcbcba",
+  "findingId": "finding_1",
+  "createdAt": "2026-08-15T09:38:13.488Z",
+  "status": "COMPLETED",
+  "endpoint": {
+    "method": "POST",
+    "path": "POST /api/auth/login"
+  },
+  "failure": {
+    "category": "RUNTIME_EXCEPTION",
+    "statusCode": 500
+  },
+  "rootCause": {
+    "summary": "Unhandled exception during request processing.",
+    "explanation": "The endpoint crashed due to an unhandled runtime error.",
+    "file": "src/server.js",
+    "line": 20,
+    "snippet": "  10 | \n  11 | // Request logging middleware\n  12 | app.use((req, res, next) => {\n  13 |   console.log(`[demo-api] ${req.method} ${req.path}`);\n  14 |   next();\n  15 | });\n  16 | \n  17 | // Routes\n  18 | app.get('/health', (req, res) => res.status(200).json({ status: 'ok', service: 'demo-api' }));\n  19 | app.get('/api/users', getUsers);\n  20 | app.post('/api/auth/login', login);\n  21 | app.get('/api/products', getProducts);\n  22 | \n  23 | // Global Error Handler\n  24 | app.use((err, req, res, next) => {\n  25 |   console.error('[demo-api Exception]', err.stack);\n  26 |   res.status(500).json({\n  27 |     error: 'Internal Server Error',\n  28 |     message: err.message,\n  29 |     stack: err.stack\n  30 |   });\n  31 | });\n  32 | \n  33 | const PORT = process.env.PORT || 4001;\n  34 | if (require.main === module) {\n  35 |   app.listen(PORT, () => {"
+  },
+  "evidence": [
+    {
+      "type": "reproduced_http_failure",
+      "detail": "Observed HTTP 500 during live reproduction probe",
+      "endpoint": "POST /api/auth/login"
+    },
+    {
+      "type": "runtime_stack_trace",
+      "file": "src/server.js",
+      "line": 20,
+      "error": "TypeError: Cannot read properties of null (reading 'password')"
+    },
+    {
+      "type": "source_correlation",
+      "file": "src/server.js",
+      "line": 20,
+      "snippet": "  10 | \n  11 | // Request logging middleware\n  12 | app.use((req, res, next) => {\n  13 |   console.log(`[demo-api] ${req.method} ${req.path}`);\n  14 |   next();\n  15 | });\n  16 | \n  17 | // Routes\n  18 | app.get('/health', (req, res) => res.status(200).json({ status: 'ok', service: 'demo-api' }));\n  19 | app.get('/api/users', getUsers);\n  20 | app.post('/api/auth/login', login);\n  21 | app.get('/api/products', getProducts);\n  22 | \n  23 | // Global Error Handler\n  24 | app.use((err, req, res, next) => {\n  25 |   console.error('[demo-api Exception]', err.stack);\n  26 |   res.status(500).json({\n  27 |     error: 'Internal Server Error',\n  28 |     message: err.message,\n  29 |     stack: err.stack\n  30 |   });\n  31 | });\n  32 | \n  33 | const PORT = process.env.PORT || 4001;\n  34 | if (require.main === module) {\n  35 |   app.listen(PORT, () => {"
+    }
+  ],
+  "hypotheses": [
+    {
+      "description": "Missing null check on database/lookup entity prior to property access.",
+      "supportingEvidence": [
+        "Stack trace matches property dereference location",
+        "HTTP 500 reproduced on non-existent test user credentials",
+        "Source inspection reveals unguarded property dereference"
+      ],
+      "confidence": "HIGH"
+    }
+  ],
+  "repairStrategy": {
+    "summary": "Add appropriate validation and exception handling before dereferencing properties.",
+    "filesLikelyAffected": [
+      "src/server.js"
+    ]
+  },
+  "confidence": null,
+  "model": "apifix-semantic-analyzer-v2",
+  "provider": "local-ast-engine"
+}

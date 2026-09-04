@@ -1,0 +1,1219 @@
+[
+  {
+    "scopeId": "org_1788498608897_pvgx4b",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:10:09.063Z"
+    },
+    "createdAt": "2026-09-04T05:10:09.033Z",
+    "updatedAt": "2026-09-04T05:10:09.063Z"
+  },
+  {
+    "scopeId": "org_1788498645667_ujbea3",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:10:45.803Z"
+    },
+    "createdAt": "2026-09-04T05:10:45.771Z",
+    "updatedAt": "2026-09-04T05:10:45.803Z"
+  },
+  {
+    "scopeId": "org_1788498683537_2dlk8m",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:11:23.682Z"
+    },
+    "createdAt": "2026-09-04T05:11:23.647Z",
+    "updatedAt": "2026-09-04T05:11:23.682Z"
+  },
+  {
+    "scopeId": "org_1788498740864_oxd6fp",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:12:21.075Z"
+    },
+    "createdAt": "2026-09-04T05:12:21.050Z",
+    "updatedAt": "2026-09-04T05:12:21.075Z"
+  },
+  {
+    "scopeId": "org_1788498801773_ubivfq",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:13:21.881Z"
+    },
+    "createdAt": "2026-09-04T05:13:21.881Z",
+    "updatedAt": "2026-09-04T05:13:21.881Z"
+  },
+  {
+    "scopeId": "org_1788498822575_8gq6du",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:13:42.657Z"
+    },
+    "createdAt": "2026-09-04T05:13:42.657Z",
+    "updatedAt": "2026-09-04T05:13:42.657Z"
+  },
+  {
+    "scopeId": "org_1788498857792_c2gf84",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:14:17.899Z"
+    },
+    "createdAt": "2026-09-04T05:14:17.899Z",
+    "updatedAt": "2026-09-04T05:14:17.899Z"
+  },
+  {
+    "scopeId": "org_1788499358706_jz5a2f",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:22:38.844Z"
+    },
+    "createdAt": "2026-09-04T05:22:38.818Z",
+    "updatedAt": "2026-09-04T05:22:38.844Z"
+  },
+  {
+    "scopeId": "org_1788499414197_86simn",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T05:23:34.258Z"
+    },
+    "createdAt": "2026-09-04T05:23:34.258Z",
+    "updatedAt": "2026-09-04T05:23:34.258Z"
+  },
+  {
+    "scopeId": "org_1788503995063_2sjqfy",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T06:39:55.220Z"
+    },
+    "createdAt": "2026-09-04T06:39:55.192Z",
+    "updatedAt": "2026-09-04T06:39:55.220Z"
+  },
+  {
+    "scopeId": "org_1788504153335_xldyh3",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T06:42:33.510Z"
+    },
+    "createdAt": "2026-09-04T06:42:33.476Z",
+    "updatedAt": "2026-09-04T06:42:33.510Z"
+  },
+  {
+    "scopeId": "org_1788507071021_yv5zu9",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T07:31:11.072Z"
+    },
+    "createdAt": "2026-09-04T07:31:11.062Z",
+    "updatedAt": "2026-09-04T07:31:11.072Z"
+  },
+  {
+    "scopeId": "org_1788507480902_bpdpkl",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T07:38:00.953Z"
+    },
+    "createdAt": "2026-09-04T07:38:00.945Z",
+    "updatedAt": "2026-09-04T07:38:00.953Z"
+  },
+  {
+    "scopeId": "org_1788532426374_78877u",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:33:46.397Z"
+    },
+    "createdAt": "2026-09-04T14:33:46.397Z",
+    "updatedAt": "2026-09-04T14:33:46.397Z"
+  },
+  {
+    "scopeId": "org_1788532426376_dvt9m7",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:33:46.426Z"
+    },
+    "createdAt": "2026-09-04T14:33:46.418Z",
+    "updatedAt": "2026-09-04T14:33:46.426Z"
+  },
+  {
+    "scopeId": "org_1788532991429_97itb5",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:43:11.460Z"
+    },
+    "createdAt": "2026-09-04T14:43:11.460Z",
+    "updatedAt": "2026-09-04T14:43:11.460Z"
+  },
+  {
+    "scopeId": "org_1788532991420_s0fs7t",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:43:11.511Z"
+    },
+    "createdAt": "2026-09-04T14:43:11.485Z",
+    "updatedAt": "2026-09-04T14:43:11.511Z"
+  },
+  {
+    "scopeId": "org_1788533890809_ssqslf",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:58:10.828Z"
+    },
+    "createdAt": "2026-09-04T14:58:10.828Z",
+    "updatedAt": "2026-09-04T14:58:10.828Z"
+  },
+  {
+    "scopeId": "org_1788533890811_buovk2",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T14:58:10.858Z"
+    },
+    "createdAt": "2026-09-04T14:58:10.850Z",
+    "updatedAt": "2026-09-04T14:58:10.858Z"
+  },
+  {
+    "scopeId": "org_1788534115962_ur524k",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T15:01:56.008Z"
+    },
+    "createdAt": "2026-09-04T15:01:56.000Z",
+    "updatedAt": "2026-09-04T15:01:56.008Z"
+  },
+  {
+    "scopeId": "org_1788534244353_fhjjb9",
+    "policy": {
+      "maxDailyAutoRepairs": 10,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "TWO_REVIEWERS",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T15:04:04.374Z"
+    },
+    "createdAt": "2026-09-04T15:04:04.374Z",
+    "updatedAt": "2026-09-04T15:04:04.374Z"
+  },
+  {
+    "scopeId": "org_1788535794792_lewl7i",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T15:29:54.855Z"
+    },
+    "createdAt": "2026-09-04T15:29:54.844Z",
+    "updatedAt": "2026-09-04T15:29:54.856Z"
+  },
+  {
+    "scopeId": "org_1788538738186_hkhdry",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T16:18:58.261Z"
+    },
+    "createdAt": "2026-09-04T16:18:58.248Z",
+    "updatedAt": "2026-09-04T16:18:58.261Z"
+  },
+  {
+    "scopeId": "org_1788541770511_0dub7g",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T17:09:30.661Z"
+    },
+    "createdAt": "2026-09-04T17:09:30.628Z",
+    "updatedAt": "2026-09-04T17:09:30.661Z"
+  },
+  {
+    "scopeId": "org_1788543980887_rec6h4",
+    "policy": {
+      "maxDailyAutoRepairs": 15,
+      "maxDailyCredits": 100,
+      "allowedAiProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedAiModels": [
+        "claude-3-5-sonnet-20241022",
+        "openai/gpt-oss-120b",
+        "gpt-4o"
+      ],
+      "requiredApprovalLevel": "ONE_REVIEWER",
+      "productionRepairRestrictions": {
+        "autoRepairBlocked": true,
+        "requireSecurityScan": true,
+        "requireTestPass": true,
+        "requireReviewers": 2
+      },
+      "branchRestrictions": [
+        "main",
+        "master",
+        "production",
+        "release/*"
+      ],
+      "requiredTestsBeforePr": true,
+      "requiredSecurityScanBeforePr": true,
+      "requiredReviewerCount": 1,
+      "incidentSeverityThresholds": {
+        "autoRepairCritical": false,
+        "autoRepairHigh": true,
+        "autoRepairMedium": true,
+        "autoRepairLow": true
+      },
+      "webhookRestrictions": {
+        "allowExternalDispatch": true,
+        "allowedDomains": []
+      },
+      "externalNotificationRestrictions": {
+        "blockSlackInDev": false
+      },
+      "updatedAt": "2026-09-04T17:46:21.045Z"
+    },
+    "createdAt": "2026-09-04T17:46:21.009Z",
+    "updatedAt": "2026-09-04T17:46:21.045Z"
+  }
+]

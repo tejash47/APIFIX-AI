@@ -1,0 +1,193 @@
+{
+  "runId": "run_analysis_1786786661093_bcbcba",
+  "projectId": "proj_1786786656482_5bjx2x",
+  "projectName": "apifix-demo-api",
+  "port": 57298,
+  "framework": "Express",
+  "executionDurationMs": 5834,
+  "metrics": {
+    "totalDiscovered": 4,
+    "totalProbed": 4,
+    "healthyCount": 3,
+    "failedCount": 1,
+    "authRequiredCount": 0,
+    "notVerifiedCount": 0
+  },
+  "primaryFailure": {
+    "endpoint": "POST /api/auth/login",
+    "httpStatus": 500,
+    "category": "RUNTIME_EXCEPTION",
+    "severity": "CRITICAL",
+    "sourceFile": "src/server.js",
+    "sourceLine": 20,
+    "evidence": {
+      "method": "POST",
+      "targetUrl": "http://127.0.0.1:57298/api/auth/login",
+      "payload": {
+        "email": "nonexistent_test_user@apifix.ai",
+        "password": "testpassword123"
+      },
+      "responseStatus": 500,
+      "responseHeaders": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "responseBody": {
+        "error": "Internal Server Error",
+        "message": "Cannot read properties of null (reading 'password')",
+        "stack": "TypeError: Cannot read properties of null (reading 'password')\n    at login (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\src\\controllers\\authController.js:26:12)\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:284:15\n    at router.process_params (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\src\\server.js:14:3\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+      },
+      "error": "HTTP 500 Internal Server Error",
+      "sourceFile": "src/server.js",
+      "sourceLine": 20,
+      "stderrSnippet": ""
+    }
+  },
+  "findings": [
+    {
+      "endpointId": "ep_src_1",
+      "method": "GET",
+      "path": "/health",
+      "sourceFile": "src/server.js",
+      "sourceLine": 18,
+      "status": "HEALTHY",
+      "category": "HEALTHY",
+      "severity": "NONE",
+      "httpStatus": 200,
+      "responseTimeMs": 10,
+      "isFailure": false,
+      "evidence": {
+        "method": "GET",
+        "targetUrl": "http://127.0.0.1:57298/health",
+        "payload": null,
+        "responseStatus": 200,
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "responseBody": {
+          "status": "ok",
+          "service": "demo-api"
+        },
+        "error": "HTTP 200 OK",
+        "sourceFile": "src/server.js",
+        "sourceLine": 18,
+        "stderrSnippet": ""
+      }
+    },
+    {
+      "endpointId": "ep_src_2",
+      "method": "GET",
+      "path": "/api/users",
+      "sourceFile": "src/server.js",
+      "sourceLine": 19,
+      "status": "HEALTHY",
+      "category": "HEALTHY",
+      "severity": "NONE",
+      "httpStatus": 200,
+      "responseTimeMs": 3,
+      "isFailure": false,
+      "evidence": {
+        "method": "GET",
+        "targetUrl": "http://127.0.0.1:57298/api/users",
+        "payload": null,
+        "responseStatus": 200,
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "responseBody": {
+          "users": [
+            {
+              "id": "usr_1",
+              "email": "alex@example.com",
+              "name": "Alex Developer"
+            },
+            {
+              "id": "usr_2",
+              "email": "dev@apifix.ai",
+              "name": "Dev Engineer"
+            }
+          ]
+        },
+        "error": "HTTP 200 OK",
+        "sourceFile": "src/server.js",
+        "sourceLine": 19,
+        "stderrSnippet": ""
+      }
+    },
+    {
+      "endpointId": "ep_src_3",
+      "method": "POST",
+      "path": "/api/auth/login",
+      "sourceFile": "src/server.js",
+      "sourceLine": 20,
+      "status": "FAILED",
+      "category": "RUNTIME_EXCEPTION",
+      "severity": "CRITICAL",
+      "httpStatus": 500,
+      "responseTimeMs": 302,
+      "isFailure": true,
+      "evidence": {
+        "method": "POST",
+        "targetUrl": "http://127.0.0.1:57298/api/auth/login",
+        "payload": {
+          "email": "nonexistent_test_user@apifix.ai",
+          "password": "testpassword123"
+        },
+        "responseStatus": 500,
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "responseBody": {
+          "error": "Internal Server Error",
+          "message": "Cannot read properties of null (reading 'password')",
+          "stack": "TypeError: Cannot read properties of null (reading 'password')\n    at login (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\src\\controllers\\authController.js:26:12)\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:284:15\n    at router.process_params (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\src\\server.js:14:3\n    at Layer.handle [as handle_request] (C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\projects\\proj_1786786656482_5bjx2x\\working\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        },
+        "error": "HTTP 500 Internal Server Error",
+        "sourceFile": "src/server.js",
+        "sourceLine": 20,
+        "stderrSnippet": ""
+      }
+    },
+    {
+      "endpointId": "ep_src_4",
+      "method": "GET",
+      "path": "/api/products",
+      "sourceFile": "src/server.js",
+      "sourceLine": 21,
+      "status": "HEALTHY",
+      "category": "HEALTHY",
+      "severity": "NONE",
+      "httpStatus": 200,
+      "responseTimeMs": 2,
+      "isFailure": false,
+      "evidence": {
+        "method": "GET",
+        "targetUrl": "http://127.0.0.1:57298/api/products",
+        "payload": null,
+        "responseStatus": 200,
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "responseBody": {
+          "products": [
+            {
+              "id": "prd_1",
+              "name": "APIFIX Reliability Agent",
+              "price": 99,
+              "category": "DevTools"
+            },
+            {
+              "id": "prd_2",
+              "name": "Sandbox Isolated Runner",
+              "price": 49,
+              "category": "Infrastructure"
+            }
+          ]
+        },
+        "error": "HTTP 200 OK",
+        "sourceFile": "src/server.js",
+        "sourceLine": 21,
+        "stderrSnippet": ""
+      }
+    }
+  ]
+}

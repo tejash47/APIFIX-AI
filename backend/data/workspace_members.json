@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "wsm_1788543979238_ibcge7",
+    "workspaceId": "ws_1788543979238_egcey2",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:19.238Z",
+    "updatedAt": "2026-09-04T17:46:19.238Z"
+  },
+  {
+    "id": "wsm_1788543979173_z9p2qw",
+    "workspaceId": "ws_1788543979173_u19ky7",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:19.173Z",
+    "updatedAt": "2026-09-04T17:46:19.173Z"
+  },
+  {
+    "id": "wsm_1788543967619_k7tndr",
+    "workspaceId": "ws_1788543967619_0shcij",
+    "userId": "usr_1788543967617",
+    "userEmail": "resilience_beta_1788543967616@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:07.619Z",
+    "updatedAt": "2026-09-04T17:46:07.619Z"
+  },
+  {
+    "id": "wsm_1788543967598_e2h3hv",
+    "workspaceId": "ws_1788543967598_ffpwk8",
+    "userId": "usr_1788543967591",
+    "userEmail": "resilience_alpha_1788543967589@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:07.598Z",
+    "updatedAt": "2026-09-04T17:46:07.598Z"
+  },
+  {
+    "id": "wsm_1788543966403_nuvzlj",
+    "workspaceId": "ws_1788543966403_f46rhq",
+    "userId": "usr_1788543966398",
+    "userEmail": "stress_user_1788543966397@apifix.io",
+    "userName": "Stress Test User",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:06.403Z",
+    "updatedAt": "2026-09-04T17:46:06.403Z"
+  },
+  {
+    "id": "wsm_1788543965096_omy1vb",
+    "workspaceId": "ws_1788543965096_ex681l",
+    "userId": "usr_1788543965093",
+    "userEmail": "chaos_1788543965092@apifix.io",
+    "userName": "Chaos Engineer",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:05.096Z",
+    "updatedAt": "2026-09-04T17:46:05.096Z"
+  },
+  {
+    "id": "wsm_1788543964205_8ymptd",
+    "workspaceId": "ws_1788543964205_x0ve2s",
+    "userId": "usr_1788543964201",
+    "userEmail": "prod_beta_1788543964200@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:04.205Z",
+    "updatedAt": "2026-09-04T17:46:04.205Z"
+  },
+  {
+    "id": "wsm_1788543964187_fw256n",
+    "workspaceId": "ws_1788543964187_9prz5i",
+    "userId": "usr_1788543964180",
+    "userEmail": "prod_alpha_1788543964177@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:04.187Z",
+    "updatedAt": "2026-09-04T17:46:04.187Z"
+  },
+  {
+    "id": "wsm_1788543962747_6vv8xn",
+    "workspaceId": "ws_1788543962747_ym471k",
+    "userId": "usr_1788543962744",
+    "userEmail": "obs_beta_1788543962743@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:02.747Z",
+    "updatedAt": "2026-09-04T17:46:02.747Z"
+  },
+  {
+    "id": "wsm_1788543962726_w1m5t3",
+    "workspaceId": "ws_1788543962725_rx12y7",
+    "userId": "usr_1788543962719",
+    "userEmail": "obs_alpha_1788543962717@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:02.726Z",
+    "updatedAt": "2026-09-04T17:46:02.726Z"
+  },
+  {
+    "id": "wsm_1788543961562_t7nr52",
+    "workspaceId": "ws_1788543961562_wbp0d0",
+    "userId": "usr_1788543961556",
+    "userEmail": "phase15_1788543961554@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:01.562Z",
+    "updatedAt": "2026-09-04T17:46:01.562Z"
+  },
+  {
+    "id": "wsm_1788543960064_d0b330",
+    "workspaceId": "ws_1788543960064_w4el25",
+    "userId": "usr_beta_owner",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:00.064Z",
+    "updatedAt": "2026-09-04T17:46:00.064Z"
+  },
+  {
+    "id": "wsm_1788543960025_as9hcx",
+    "workspaceId": "ws_1788543960025_o85q1w",
+    "userId": "usr_alpha_owner",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:46:00.025Z",
+    "updatedAt": "2026-09-04T17:46:00.025Z"
+  },
+  {
+    "id": "wsm_1788543958606_jfr5w0",
+    "workspaceId": "ws_1788543958606_w3n3ta",
+    "userId": "usr_tenant_beta",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:45:58.606Z",
+    "updatedAt": "2026-09-04T17:45:58.606Z"
+  },
+  {
+    "id": "wsm_1788543958583_l9mscd",
+    "workspaceId": "ws_1788543958583_8svt5z",
+    "userId": "usr_tenant_alpha",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:45:58.583Z",
+    "updatedAt": "2026-09-04T17:45:58.583Z"
+  },
+  {
+    "id": "wsm_1788543958536_1vbljj",
+    "workspaceId": "ws_1788543958536_uop9rl",
+    "userId": "usr_1788543958533",
+    "userEmail": "test_new_1788543958319@tenant-auto.org",
+    "userName": "New Tenant",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:45:58.536Z",
+    "updatedAt": "2026-09-04T17:45:58.536Z"
+  },
+  {
+    "id": "wsm_1788541769236_7vzf07",
+    "workspaceId": "ws_1788541769236_6srf51",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:29.236Z",
+    "updatedAt": "2026-09-04T17:09:29.236Z"
+  },
+  {
+    "id": "wsm_1788541769188_koy4l9",
+    "workspaceId": "ws_1788541769188_38dbzh",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:29.188Z",
+    "updatedAt": "2026-09-04T17:09:29.188Z"
+  },
+  {
+    "id": "wsm_1788541757865_qgh0ve",
+    "workspaceId": "ws_1788541757865_i9s6g4",
+    "userId": "usr_1788541757863",
+    "userEmail": "resilience_beta_1788541757862@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:17.865Z",
+    "updatedAt": "2026-09-04T17:09:17.865Z"
+  },
+  {
+    "id": "wsm_1788541757848_32tqin",
+    "workspaceId": "ws_1788541757848_6noh6x",
+    "userId": "usr_1788541757842",
+    "userEmail": "resilience_alpha_1788541757840@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:17.848Z",
+    "updatedAt": "2026-09-04T17:09:17.848Z"
+  },
+  {
+    "id": "wsm_1788541756628_7vfac7",
+    "workspaceId": "ws_1788541756628_tnx3q0",
+    "userId": "usr_1788541756621",
+    "userEmail": "stress_user_1788541756620@apifix.io",
+    "userName": "Stress Test User",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:16.628Z",
+    "updatedAt": "2026-09-04T17:09:16.628Z"
+  },
+  {
+    "id": "wsm_1788541755302_nexz0f",
+    "workspaceId": "ws_1788541755302_hnc72x",
+    "userId": "usr_1788541755299",
+    "userEmail": "chaos_1788541755297@apifix.io",
+    "userName": "Chaos Engineer",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:15.302Z",
+    "updatedAt": "2026-09-04T17:09:15.302Z"
+  },
+  {
+    "id": "wsm_1788541754477_gpi09a",
+    "workspaceId": "ws_1788541754477_r5qay7",
+    "userId": "usr_1788541754474",
+    "userEmail": "prod_beta_1788541754473@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:14.477Z",
+    "updatedAt": "2026-09-04T17:09:14.477Z"
+  },
+  {
+    "id": "wsm_1788541754457_jtrycm",
+    "workspaceId": "ws_1788541754457_ce5f6h",
+    "userId": "usr_1788541754452",
+    "userEmail": "prod_alpha_1788541754450@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:14.457Z",
+    "updatedAt": "2026-09-04T17:09:14.457Z"
+  },
+  {
+    "id": "wsm_1788541753364_rg5qhe",
+    "workspaceId": "ws_1788541753364_lt2lbb",
+    "userId": "usr_1788541753362",
+    "userEmail": "obs_beta_1788541753361@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:13.364Z",
+    "updatedAt": "2026-09-04T17:09:13.364Z"
+  },
+  {
+    "id": "wsm_1788541753346_bet81c",
+    "workspaceId": "ws_1788541753346_5j7uyd",
+    "userId": "usr_1788541753339",
+    "userEmail": "obs_alpha_1788541753336@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:13.346Z",
+    "updatedAt": "2026-09-04T17:09:13.346Z"
+  },
+  {
+    "id": "wsm_1788541752188_f12e91",
+    "workspaceId": "ws_1788541752188_j1gksq",
+    "userId": "usr_1788541752181",
+    "userEmail": "phase15_1788541752179@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:12.188Z",
+    "updatedAt": "2026-09-04T17:09:12.188Z"
+  },
+  {
+    "id": "wsm_1788541750614_e3dn80",
+    "workspaceId": "ws_1788541750614_2ivpep",
+    "userId": "usr_beta_owner",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:10.614Z",
+    "updatedAt": "2026-09-04T17:09:10.614Z"
+  },
+  {
+    "id": "wsm_1788541750582_ktmxv0",
+    "workspaceId": "ws_1788541750582_i3l7il",
+    "userId": "usr_alpha_owner",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:10.582Z",
+    "updatedAt": "2026-09-04T17:09:10.582Z"
+  },
+  {
+    "id": "wsm_1788541749064_icobsd",
+    "workspaceId": "ws_1788541749064_ut7fna",
+    "userId": "usr_tenant_beta",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:09.064Z",
+    "updatedAt": "2026-09-04T17:09:09.064Z"
+  },
+  {
+    "id": "wsm_1788541749040_as7h67",
+    "workspaceId": "ws_1788541749040_27pz8t",
+    "userId": "usr_tenant_alpha",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:09.040Z",
+    "updatedAt": "2026-09-04T17:09:09.040Z"
+  },
+  {
+    "id": "wsm_1788541748997_908n1b",
+    "workspaceId": "ws_1788541748997_qzt7xo",
+    "userId": "usr_1788541748992",
+    "userEmail": "test_new_1788541748812@tenant-auto.org",
+    "userName": "New Tenant",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T17:09:08.997Z",
+    "updatedAt": "2026-09-04T17:09:08.997Z"
+  },
+  {
+    "id": "wsm_1788538737449_u0xmgk",
+    "workspaceId": "ws_1788538737449_g4vty5",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:57.449Z",
+    "updatedAt": "2026-09-04T16:18:57.449Z"
+  },
+  {
+    "id": "wsm_1788538737427_fytyat",
+    "workspaceId": "ws_1788538737427_dsh5ww",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:57.427Z",
+    "updatedAt": "2026-09-04T16:18:57.427Z"
+  },
+  {
+    "id": "wsm_1788538726777_lcse5x",
+    "workspaceId": "ws_1788538726777_z9nnm9",
+    "userId": "usr_1788538726776",
+    "userEmail": "resilience_beta_1788538726775@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:46.777Z",
+    "updatedAt": "2026-09-04T16:18:46.777Z"
+  },
+  {
+    "id": "wsm_1788538726768_23l20r",
+    "workspaceId": "ws_1788538726768_4l42a2",
+    "userId": "usr_1788538726765",
+    "userEmail": "resilience_alpha_1788538726764@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:46.768Z",
+    "updatedAt": "2026-09-04T16:18:46.768Z"
+  },
+  {
+    "id": "wsm_1788538726080_byh5qr",
+    "workspaceId": "ws_1788538726080_ej4ikz",
+    "userId": "usr_1788538726076",
+    "userEmail": "stress_user_1788538726075@apifix.io",
+    "userName": "Stress Test User",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:46.080Z",
+    "updatedAt": "2026-09-04T16:18:46.080Z"
+  },
+  {
+    "id": "wsm_1788538725213_6bb75z",
+    "workspaceId": "ws_1788538725213_gvmgra",
+    "userId": "usr_1788538725211",
+    "userEmail": "chaos_1788538725211@apifix.io",
+    "userName": "Chaos Engineer",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:45.213Z",
+    "updatedAt": "2026-09-04T16:18:45.213Z"
+  },
+  {
+    "id": "wsm_1788538724720_a3bw20",
+    "workspaceId": "ws_1788538724720_rstnrq",
+    "userId": "usr_1788538724718",
+    "userEmail": "prod_beta_1788538724718@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:44.720Z",
+    "updatedAt": "2026-09-04T16:18:44.720Z"
+  },
+  {
+    "id": "wsm_1788538724711_n60tqw",
+    "workspaceId": "ws_1788538724711_0agkfk",
+    "userId": "usr_1788538724708",
+    "userEmail": "prod_alpha_1788538724707@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:44.711Z",
+    "updatedAt": "2026-09-04T16:18:44.711Z"
+  },
+  {
+    "id": "wsm_1788538724078_128dos",
+    "workspaceId": "ws_1788538724078_wkwaoz",
+    "userId": "usr_1788538724076",
+    "userEmail": "obs_beta_1788538724076@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:44.078Z",
+    "updatedAt": "2026-09-04T16:18:44.078Z"
+  },
+  {
+    "id": "wsm_1788538724069_60578r",
+    "workspaceId": "ws_1788538724069_wb9b5n",
+    "userId": "usr_1788538724066",
+    "userEmail": "obs_alpha_1788538724065@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:44.069Z",
+    "updatedAt": "2026-09-04T16:18:44.069Z"
+  },
+  {
+    "id": "wsm_1788538723368_7c6ucd",
+    "workspaceId": "ws_1788538723368_9bf4a4",
+    "userId": "usr_1788538723365",
+    "userEmail": "phase15_1788538723364@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:43.368Z",
+    "updatedAt": "2026-09-04T16:18:43.368Z"
+  },
+  {
+    "id": "wsm_1788538722489_9k5a8m",
+    "workspaceId": "ws_1788538722489_ns9rpz",
+    "userId": "usr_beta_owner",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:42.489Z",
+    "updatedAt": "2026-09-04T16:18:42.489Z"
+  },
+  {
+    "id": "wsm_1788538722473_armoo9",
+    "workspaceId": "ws_1788538722473_hsht9s",
+    "userId": "usr_alpha_owner",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:42.473Z",
+    "updatedAt": "2026-09-04T16:18:42.473Z"
+  },
+  {
+    "id": "wsm_1788538721637_muzih9",
+    "workspaceId": "ws_1788538721637_2vcaam",
+    "userId": "usr_tenant_beta",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:41.637Z",
+    "updatedAt": "2026-09-04T16:18:41.637Z"
+  },
+  {
+    "id": "wsm_1788538721625_cd365o",
+    "workspaceId": "ws_1788538721625_uae34l",
+    "userId": "usr_tenant_alpha",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:41.625Z",
+    "updatedAt": "2026-09-04T16:18:41.625Z"
+  },
+  {
+    "id": "wsm_1788538721602_mv1g48",
+    "workspaceId": "ws_1788538721602_sfyqiq",
+    "userId": "usr_1788538721600",
+    "userEmail": "test_new_1788538721487@tenant-auto.org",
+    "userName": "New Tenant",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T16:18:41.602Z",
+    "updatedAt": "2026-09-04T16:18:41.602Z"
+  },
+  {
+    "id": "wsm_1788535793820_yxu3jh",
+    "workspaceId": "ws_1788535793820_g1p55n",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:53.820Z",
+    "updatedAt": "2026-09-04T15:29:53.820Z"
+  },
+  {
+    "id": "wsm_1788535793790_v3u8ck",
+    "workspaceId": "ws_1788535793789_le8lrm",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:53.790Z",
+    "updatedAt": "2026-09-04T15:29:53.790Z"
+  },
+  {
+    "id": "wsm_1788535782988_fk573o",
+    "workspaceId": "ws_1788535782988_6epyf3",
+    "userId": "usr_1788535782987",
+    "userEmail": "resilience_beta_1788535782987@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:42.988Z",
+    "updatedAt": "2026-09-04T15:29:42.988Z"
+  },
+  {
+    "id": "wsm_1788535782980_57mytb",
+    "workspaceId": "ws_1788535782980_x8s69g",
+    "userId": "usr_1788535782973",
+    "userEmail": "resilience_alpha_1788535782971@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:42.980Z",
+    "updatedAt": "2026-09-04T15:29:42.980Z"
+  },
+  {
+    "id": "wsm_1788535782010_1bwqi2",
+    "workspaceId": "ws_1788535782010_zmisze",
+    "userId": "usr_1788535782005",
+    "userEmail": "stress_user_1788535782004@apifix.io",
+    "userName": "Stress Test User",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:42.010Z",
+    "updatedAt": "2026-09-04T15:29:42.010Z"
+  },
+  {
+    "id": "wsm_1788535780975_gpasno",
+    "workspaceId": "ws_1788535780974_quphk4",
+    "userId": "usr_1788535780970",
+    "userEmail": "chaos_1788535780969@apifix.io",
+    "userName": "Chaos Engineer",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:40.975Z",
+    "updatedAt": "2026-09-04T15:29:40.975Z"
+  },
+  {
+    "id": "wsm_1788535780312_89wza3",
+    "workspaceId": "ws_1788535780312_mj1nd1",
+    "userId": "usr_1788535780309",
+    "userEmail": "prod_beta_1788535780308@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:40.312Z",
+    "updatedAt": "2026-09-04T15:29:40.312Z"
+  },
+  {
+    "id": "wsm_1788535780300_3nmuqc",
+    "workspaceId": "ws_1788535780300_vlofjk",
+    "userId": "usr_1788535780295",
+    "userEmail": "prod_alpha_1788535780294@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:40.300Z",
+    "updatedAt": "2026-09-04T15:29:40.300Z"
+  },
+  {
+    "id": "wsm_1788535779511_7hdx4g",
+    "workspaceId": "ws_1788535779511_du1cwk",
+    "userId": "usr_1788535779509",
+    "userEmail": "obs_beta_1788535779508@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:39.511Z",
+    "updatedAt": "2026-09-04T15:29:39.511Z"
+  },
+  {
+    "id": "wsm_1788535779501_h70cgu",
+    "workspaceId": "ws_1788535779501_3ty8ke",
+    "userId": "usr_1788535779496",
+    "userEmail": "obs_alpha_1788535779495@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:39.501Z",
+    "updatedAt": "2026-09-04T15:29:39.501Z"
+  },
+  {
+    "id": "wsm_1788535778646_1gcp7m",
+    "workspaceId": "ws_1788535778646_lhpw38",
+    "userId": "usr_1788535778641",
+    "userEmail": "phase15_1788535778639@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:38.646Z",
+    "updatedAt": "2026-09-04T15:29:38.646Z"
+  },
+  {
+    "id": "wsm_1788535777608_dlawty",
+    "workspaceId": "ws_1788535777608_0jnbco",
+    "userId": "usr_beta_owner",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:37.608Z",
+    "updatedAt": "2026-09-04T15:29:37.608Z"
+  },
+  {
+    "id": "wsm_1788535777595_6wwc4l",
+    "workspaceId": "ws_1788535777595_5pl4ll",
+    "userId": "usr_alpha_owner",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:37.595Z",
+    "updatedAt": "2026-09-04T15:29:37.595Z"
+  },
+  {
+    "id": "wsm_1788535776597_l2x54t",
+    "workspaceId": "ws_1788535776597_rqd9uk",
+    "userId": "usr_tenant_beta",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:36.597Z",
+    "updatedAt": "2026-09-04T15:29:36.597Z"
+  },
+  {
+    "id": "wsm_1788535776538_d0d7rx",
+    "workspaceId": "ws_1788535776538_nz33vv",
+    "userId": "usr_tenant_alpha",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:36.538Z",
+    "updatedAt": "2026-09-04T15:29:36.538Z"
+  },
+  {
+    "id": "wsm_1788535776460_ysyl0r",
+    "workspaceId": "ws_1788535776460_q3oltj",
+    "userId": "usr_1788535776456",
+    "userEmail": "test_new_1788535776314@tenant-auto.org",
+    "userName": "New Tenant",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:29:36.460Z",
+    "updatedAt": "2026-09-04T15:29:36.460Z"
+  },
+  {
+    "id": "wsm_1788534333889_gg87oj",
+    "workspaceId": "ws_1788534333889_nsxbz0",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:05:33.889Z",
+    "updatedAt": "2026-09-04T15:05:33.889Z"
+  },
+  {
+    "id": "wsm_1788534333874_kvicwu",
+    "workspaceId": "ws_1788534333874_r4cz9m",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:05:33.874Z",
+    "updatedAt": "2026-09-04T15:05:33.874Z"
+  },
+  {
+    "id": "wsm_1788534321618_gqu2r7",
+    "workspaceId": "ws_1788534321618_vy42ba",
+    "userId": "usr_1788534321616",
+    "userEmail": "beta_1788534321615@acceptance.io",
+    "userName": "Beta Member",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:05:21.618Z",
+    "updatedAt": "2026-09-04T15:05:21.618Z"
+  },
+  {
+    "id": "wsm_1788534321608_e9uyqz",
+    "workspaceId": "ws_1788534321608_jdfntn",
+    "userId": "usr_1788534321604",
+    "userEmail": "alpha_1788534321603@acceptance.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:05:21.608Z",
+    "updatedAt": "2026-09-04T15:05:21.608Z"
+  },
+  {
+    "id": "wsm_1788534314255_4po4mr",
+    "workspaceId": "ws_1788534314255_k5kyhi",
+    "userId": "usr_1788534314251",
+    "userEmail": "phase15_1788534314251@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:05:14.255Z",
+    "updatedAt": "2026-09-04T15:05:14.255Z"
+  },
+  {
+    "id": "wsm_1788534249682_non0rz",
+    "workspaceId": "ws_1788534249682_u40hh6",
+    "userId": "usr_beta_owner",
+    "userEmail": "bob@beta-industries.io",
+    "userName": "Bob Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:04:09.682Z",
+    "updatedAt": "2026-09-04T15:04:09.682Z"
+  },
+  {
+    "id": "wsm_1788534249670_z906yl",
+    "workspaceId": "ws_1788534249670_wxhanc",
+    "userId": "usr_alpha_owner",
+    "userEmail": "alice@alpha-corp.io",
+    "userName": "Alice Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T15:04:09.670Z",
+    "updatedAt": "2026-09-04T15:04:09.670Z"
+  },
+  {
+    "id": "wsm_1788532991440_3un1y8",
+    "workspaceId": "ws_1788532991440_29gqbb",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:43:11.440Z",
+    "updatedAt": "2026-09-04T14:43:11.440Z"
+  },
+  {
+    "id": "wsm_1788532991418_o9uwod",
+    "workspaceId": "ws_1788532991418_okbg7a",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:43:11.418Z",
+    "updatedAt": "2026-09-04T14:43:11.418Z"
+  },
+  {
+    "id": "wsm_1788532847291_hoiw9g",
+    "workspaceId": "ws_1788532847291_99nh6d",
+    "userId": "usr_1788532847290",
+    "userEmail": "resilience_beta_1788532847289@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:40:47.291Z",
+    "updatedAt": "2026-09-04T14:40:47.291Z"
+  },
+  {
+    "id": "wsm_1788532847283_0o2myv",
+    "workspaceId": "ws_1788532847283_bbdfm7",
+    "userId": "usr_1788532847280",
+    "userEmail": "resilience_alpha_1788532847279@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:40:47.283Z",
+    "updatedAt": "2026-09-04T14:40:47.283Z"
+  },
+  {
+    "id": "wsm_1788532475452_ni5h7o",
+    "workspaceId": "ws_1788532475452_c1s82e",
+    "userId": "usr_1788532475451",
+    "userEmail": "prod_beta_1788532475450@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:35.452Z",
+    "updatedAt": "2026-09-04T14:34:35.452Z"
+  },
+  {
+    "id": "wsm_1788532475445_ix30z0",
+    "workspaceId": "ws_1788532475445_o5896m",
+    "userId": "usr_1788532475441",
+    "userEmail": "prod_alpha_1788532475440@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:35.445Z",
+    "updatedAt": "2026-09-04T14:34:35.445Z"
+  },
+  {
+    "id": "wsm_1788532461864_a91zxf",
+    "workspaceId": "ws_1788532461864_ledjlr",
+    "userId": "usr_1788532461863",
+    "userEmail": "obs_beta_1788532461862@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:21.864Z",
+    "updatedAt": "2026-09-04T14:34:21.864Z"
+  },
+  {
+    "id": "wsm_1788532461856_k0pzdi",
+    "workspaceId": "ws_1788532461856_7vw2ph",
+    "userId": "usr_1788532461852",
+    "userEmail": "obs_alpha_1788532461851@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:21.856Z",
+    "updatedAt": "2026-09-04T14:34:21.856Z"
+  },
+  {
+    "id": "wsm_1788532445170_aefjjd",
+    "workspaceId": "ws_1788532445170_gi9wls",
+    "userId": "usr_1788532445169",
+    "userEmail": "obs_beta_1788532445168@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:05.170Z",
+    "updatedAt": "2026-09-04T14:34:05.170Z"
+  },
+  {
+    "id": "wsm_1788532445163_znytqg",
+    "workspaceId": "ws_1788532445163_dd9obj",
+    "userId": "usr_1788532445159",
+    "userEmail": "obs_alpha_1788532445159@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:34:05.163Z",
+    "updatedAt": "2026-09-04T14:34:05.163Z"
+  },
+  {
+    "id": "wsm_1788532426331_u9945h",
+    "workspaceId": "ws_1788532426331_gg8qjj",
+    "userId": "usr_sec_beta_owner",
+    "userEmail": "owner@beta-corp.io",
+    "userName": "Beta Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:46.331Z",
+    "updatedAt": "2026-09-04T14:33:46.331Z"
+  },
+  {
+    "id": "wsm_1788532426307_3aij97",
+    "workspaceId": "ws_1788532426307_vf8f3f",
+    "userId": "usr_sec_alpha_owner",
+    "userEmail": "owner@alpha-security.io",
+    "userName": "Alpha Owner",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:46.307Z",
+    "updatedAt": "2026-09-04T14:33:46.307Z"
+  },
+  {
+    "id": "wsm_1788532425543_2dbcdg",
+    "workspaceId": "ws_1788532425543_pyfr2y",
+    "userId": "usr_1788532425542",
+    "userEmail": "resilience_beta_1788532425541@apifix.io",
+    "userName": "Resilience Tester Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.543Z",
+    "updatedAt": "2026-09-04T14:33:45.543Z"
+  },
+  {
+    "id": "wsm_1788532425533_pc10lm",
+    "workspaceId": "ws_1788532425533_ye1w33",
+    "userId": "usr_1788532425529",
+    "userEmail": "resilience_alpha_1788532425528@apifix.io",
+    "userName": "Resilience Tester Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.533Z",
+    "updatedAt": "2026-09-04T14:33:45.533Z"
+  },
+  {
+    "id": "wsm_1788532425510_xms4cr",
+    "workspaceId": "ws_1788532425510_79te5f",
+    "userId": "usr_1788532425508",
+    "userEmail": "obs_beta_1788532425507@apifix.io",
+    "userName": "Observability Member Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.510Z",
+    "updatedAt": "2026-09-04T14:33:45.510Z"
+  },
+  {
+    "id": "wsm_1788532425500_b3t8tq",
+    "workspaceId": "ws_1788532425500_ylp22p",
+    "userId": "usr_1788532425494",
+    "userEmail": "obs_alpha_1788532425494@apifix.io",
+    "userName": "Observability Lead Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.500Z",
+    "updatedAt": "2026-09-04T14:33:45.500Z"
+  },
+  {
+    "id": "wsm_1788532425486_46i58t",
+    "workspaceId": "ws_1788532425486_z0dkvw",
+    "userId": "usr_1788532425483",
+    "userEmail": "prod_beta_1788532425483@apifix.io",
+    "userName": "Production Deployer Beta",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.486Z",
+    "updatedAt": "2026-09-04T14:33:45.486Z"
+  },
+  {
+    "id": "wsm_1788532425475_4ba42i",
+    "workspaceId": "ws_1788532425475_d8cye1",
+    "userId": "usr_1788532425470",
+    "userEmail": "stress_user_1788532425469@apifix.io",
+    "userName": "Stress Test User",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.475Z",
+    "updatedAt": "2026-09-04T14:33:45.475Z"
+  },
+  {
+    "id": "wsm_1788532425475_wyxxoz",
+    "workspaceId": "ws_1788532425475_4waup8",
+    "userId": "usr_1788532425470",
+    "userEmail": "prod_alpha_1788532425469@apifix.io",
+    "userName": "Production Deployer Alpha",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.475Z",
+    "updatedAt": "2026-09-04T14:33:45.475Z"
+  },
+  {
+    "id": "wsm_1788532425441_p5cv3l",
+    "workspaceId": "ws_1788532425441_p34adg",
+    "userId": "usr_1788532425438",
+    "userEmail": "phase15_1788532425437@example.com",
+    "userName": "Phase 15 Lead",
+    "role": "OWNER",
+    "createdAt": "2026-09-04T14:33:45.441Z",
+    "updatedAt": "2026-09-04T14:33:45.441Z"
+  },
+  {
+    "id": "wsm_1788532425699_lf5qup",
+    "workspaceId": "ws_1788532425475_4waup8",
+    "userId": "usr_1788532425695",
+    "userEmail": "viewer_1788532425693@apifix.io",
+    "userName": "viewer_1788532425693",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T14:33:45.699Z",
+    "updatedAt": "2026-09-04T14:33:45.699Z"
+  },
+  {
+    "id": "wsm_1788532426322_rbfgpq",
+    "workspaceId": "ws_1788532426307_vf8f3f",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T14:33:46.322Z",
+    "updatedAt": "2026-09-04T14:33:46.322Z"
+  },
+  {
+    "id": "wsm_1788532426325_tvi2dx",
+    "workspaceId": "ws_1788532426307_vf8f3f",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T14:33:46.325Z",
+    "updatedAt": "2026-09-04T14:33:46.325Z"
+  },
+  {
+    "id": "wsm_1788532426328_4xisv4",
+    "workspaceId": "ws_1788532426307_vf8f3f",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T14:33:46.328Z",
+    "updatedAt": "2026-09-04T14:33:46.328Z"
+  },
+  {
+    "id": "wsm_1788532475593_n8iz4x",
+    "workspaceId": "ws_1788532475445_o5896m",
+    "userId": "usr_1788532475591",
+    "userEmail": "viewer_1788532475590@apifix.io",
+    "userName": "viewer_1788532475590",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T14:34:35.593Z",
+    "updatedAt": "2026-09-04T14:34:35.594Z"
+  },
+  {
+    "id": "wsm_1788532991428_lbzgej",
+    "workspaceId": "ws_1788532991418_okbg7a",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T14:43:11.428Z",
+    "updatedAt": "2026-09-04T14:43:11.428Z"
+  },
+  {
+    "id": "wsm_1788532991435_eek1vu",
+    "workspaceId": "ws_1788532991418_okbg7a",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T14:43:11.435Z",
+    "updatedAt": "2026-09-04T14:43:11.435Z"
+  },
+  {
+    "id": "wsm_1788532991438_apkunt",
+    "workspaceId": "ws_1788532991418_okbg7a",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T14:43:11.438Z",
+    "updatedAt": "2026-09-04T14:43:11.438Z"
+  },
+  {
+    "id": "wsm_1788534249678_fszgzh",
+    "workspaceId": "ws_1788534249670_wxhanc",
+    "userId": "usr_alpha_member",
+    "userEmail": "member@alpha-corp.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T15:04:09.678Z",
+    "updatedAt": "2026-09-04T15:04:09.678Z"
+  },
+  {
+    "id": "wsm_1788534249680_4jy8gg",
+    "workspaceId": "ws_1788534249670_wxhanc",
+    "userId": "usr_alpha_viewer",
+    "userEmail": "viewer@alpha-corp.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:04:09.680Z",
+    "updatedAt": "2026-09-04T15:04:09.680Z"
+  },
+  {
+    "id": "wsm_1788534333881_063uiz",
+    "workspaceId": "ws_1788534333874_r4cz9m",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T15:05:33.881Z",
+    "updatedAt": "2026-09-04T15:05:33.881Z"
+  },
+  {
+    "id": "wsm_1788534333884_8ixiru",
+    "workspaceId": "ws_1788534333874_r4cz9m",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T15:05:33.884Z",
+    "updatedAt": "2026-09-04T15:05:33.884Z"
+  },
+  {
+    "id": "wsm_1788534333886_kv0tzy",
+    "workspaceId": "ws_1788534333874_r4cz9m",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:05:33.886Z",
+    "updatedAt": "2026-09-04T15:05:33.886Z"
+  },
+  {
+    "id": "wsm_1788535776627_b8l3id",
+    "workspaceId": "ws_1788535776538_nz33vv",
+    "userId": "usr_member_charlie",
+    "userEmail": "charlie@alpha-corp.io",
+    "userName": "Charlie Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T15:29:36.627Z",
+    "updatedAt": "2026-09-04T15:29:36.627Z"
+  },
+  {
+    "id": "wsm_1788535776638_dhd6hm",
+    "workspaceId": "ws_1788535776538_nz33vv",
+    "userId": "usr_viewer_diana",
+    "userEmail": "diana@alpha-corp.io",
+    "userName": "Diana Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:29:36.638Z",
+    "updatedAt": "2026-09-04T15:29:36.638Z"
+  },
+  {
+    "id": "wsm_1788535777602_nohru7",
+    "workspaceId": "ws_1788535777595_5pl4ll",
+    "userId": "usr_alpha_member",
+    "userEmail": "member@alpha-corp.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T15:29:37.602Z",
+    "updatedAt": "2026-09-04T15:29:37.602Z"
+  },
+  {
+    "id": "wsm_1788535777605_b8nrrk",
+    "workspaceId": "ws_1788535777595_5pl4ll",
+    "userId": "usr_alpha_viewer",
+    "userEmail": "viewer@alpha-corp.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:29:37.605Z",
+    "updatedAt": "2026-09-04T15:29:37.605Z"
+  },
+  {
+    "id": "wsm_1788535780487_tvyru4",
+    "workspaceId": "ws_1788535780300_vlofjk",
+    "userId": "usr_1788535780485",
+    "userEmail": "viewer_1788535780484@apifix.io",
+    "userName": "viewer_1788535780484",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:29:40.487Z",
+    "updatedAt": "2026-09-04T15:29:40.487Z"
+  },
+  {
+    "id": "wsm_1788535793800_jcacaa",
+    "workspaceId": "ws_1788535793789_le8lrm",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T15:29:53.800Z",
+    "updatedAt": "2026-09-04T15:29:53.800Z"
+  },
+  {
+    "id": "wsm_1788535793814_kyjg53",
+    "workspaceId": "ws_1788535793789_le8lrm",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T15:29:53.814Z",
+    "updatedAt": "2026-09-04T15:29:53.814Z"
+  },
+  {
+    "id": "wsm_1788535793817_r9pmhb",
+    "workspaceId": "ws_1788535793789_le8lrm",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T15:29:53.817Z",
+    "updatedAt": "2026-09-04T15:29:53.817Z"
+  },
+  {
+    "id": "wsm_1788538721653_xnzbya",
+    "workspaceId": "ws_1788538721625_uae34l",
+    "userId": "usr_member_charlie",
+    "userEmail": "charlie@alpha-corp.io",
+    "userName": "Charlie Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T16:18:41.653Z",
+    "updatedAt": "2026-09-04T16:18:41.653Z"
+  },
+  {
+    "id": "wsm_1788538721663_h3u4sx",
+    "workspaceId": "ws_1788538721625_uae34l",
+    "userId": "usr_viewer_diana",
+    "userEmail": "diana@alpha-corp.io",
+    "userName": "Diana Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T16:18:41.663Z",
+    "updatedAt": "2026-09-04T16:18:41.663Z"
+  },
+  {
+    "id": "wsm_1788538722481_b7gmyv",
+    "workspaceId": "ws_1788538722473_hsht9s",
+    "userId": "usr_alpha_member",
+    "userEmail": "member@alpha-corp.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T16:18:42.481Z",
+    "updatedAt": "2026-09-04T16:18:42.481Z"
+  },
+  {
+    "id": "wsm_1788538722486_v6onwd",
+    "workspaceId": "ws_1788538722473_hsht9s",
+    "userId": "usr_alpha_viewer",
+    "userEmail": "viewer@alpha-corp.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T16:18:42.486Z",
+    "updatedAt": "2026-09-04T16:18:42.486Z"
+  },
+  {
+    "id": "wsm_1788538724836_sfk2gn",
+    "workspaceId": "ws_1788538724711_0agkfk",
+    "userId": "usr_1788538724834",
+    "userEmail": "viewer_1788538724833@apifix.io",
+    "userName": "viewer_1788538724833",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T16:18:44.836Z",
+    "updatedAt": "2026-09-04T16:18:44.836Z"
+  },
+  {
+    "id": "wsm_1788538737437_r03zlu",
+    "workspaceId": "ws_1788538737427_dsh5ww",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T16:18:57.437Z",
+    "updatedAt": "2026-09-04T16:18:57.437Z"
+  },
+  {
+    "id": "wsm_1788538737441_cuiw14",
+    "workspaceId": "ws_1788538737427_dsh5ww",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T16:18:57.441Z",
+    "updatedAt": "2026-09-04T16:18:57.441Z"
+  },
+  {
+    "id": "wsm_1788538737445_pkq2rb",
+    "workspaceId": "ws_1788538737427_dsh5ww",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T16:18:57.445Z",
+    "updatedAt": "2026-09-04T16:18:57.445Z"
+  },
+  {
+    "id": "wsm_1788541749092_fsoa5a",
+    "workspaceId": "ws_1788541749040_27pz8t",
+    "userId": "usr_member_charlie",
+    "userEmail": "charlie@alpha-corp.io",
+    "userName": "Charlie Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:09:09.092Z",
+    "updatedAt": "2026-09-04T17:09:09.092Z"
+  },
+  {
+    "id": "wsm_1788541749112_dq8c57",
+    "workspaceId": "ws_1788541749040_27pz8t",
+    "userId": "usr_viewer_diana",
+    "userEmail": "diana@alpha-corp.io",
+    "userName": "Diana Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:09:09.112Z",
+    "updatedAt": "2026-09-04T17:09:09.112Z"
+  },
+  {
+    "id": "wsm_1788541750600_1ou52n",
+    "workspaceId": "ws_1788541750582_i3l7il",
+    "userId": "usr_alpha_member",
+    "userEmail": "member@alpha-corp.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:09:10.600Z",
+    "updatedAt": "2026-09-04T17:09:10.600Z"
+  },
+  {
+    "id": "wsm_1788541750607_f5o8q0",
+    "workspaceId": "ws_1788541750582_i3l7il",
+    "userId": "usr_alpha_viewer",
+    "userEmail": "viewer@alpha-corp.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:09:10.607Z",
+    "updatedAt": "2026-09-04T17:09:10.608Z"
+  },
+  {
+    "id": "wsm_1788541754676_2a5uy5",
+    "workspaceId": "ws_1788541754457_ce5f6h",
+    "userId": "usr_1788541754674",
+    "userEmail": "viewer_1788541754672@apifix.io",
+    "userName": "viewer_1788541754672",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:09:14.676Z",
+    "updatedAt": "2026-09-04T17:09:14.676Z"
+  },
+  {
+    "id": "wsm_1788541769208_btbk1z",
+    "workspaceId": "ws_1788541769188_38dbzh",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T17:09:29.208Z",
+    "updatedAt": "2026-09-04T17:09:29.208Z"
+  },
+  {
+    "id": "wsm_1788541769219_yq4xwz",
+    "workspaceId": "ws_1788541769188_38dbzh",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:09:29.219Z",
+    "updatedAt": "2026-09-04T17:09:29.219Z"
+  },
+  {
+    "id": "wsm_1788541769228_kypdxa",
+    "workspaceId": "ws_1788541769188_38dbzh",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:09:29.228Z",
+    "updatedAt": "2026-09-04T17:09:29.228Z"
+  },
+  {
+    "id": "wsm_1788543958633_qblkve",
+    "workspaceId": "ws_1788543958583_8svt5z",
+    "userId": "usr_member_charlie",
+    "userEmail": "charlie@alpha-corp.io",
+    "userName": "Charlie Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:45:58.633Z",
+    "updatedAt": "2026-09-04T17:45:58.633Z"
+  },
+  {
+    "id": "wsm_1788543958654_5vk8gx",
+    "workspaceId": "ws_1788543958583_8svt5z",
+    "userId": "usr_viewer_diana",
+    "userEmail": "diana@alpha-corp.io",
+    "userName": "Diana Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:45:58.654Z",
+    "updatedAt": "2026-09-04T17:45:58.655Z"
+  },
+  {
+    "id": "wsm_1788543960045_6pcqza",
+    "workspaceId": "ws_1788543960025_o85q1w",
+    "userId": "usr_alpha_member",
+    "userEmail": "member@alpha-corp.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:46:00.045Z",
+    "updatedAt": "2026-09-04T17:46:00.045Z"
+  },
+  {
+    "id": "wsm_1788543960057_evocwm",
+    "workspaceId": "ws_1788543960025_o85q1w",
+    "userId": "usr_alpha_viewer",
+    "userEmail": "viewer@alpha-corp.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:46:00.057Z",
+    "updatedAt": "2026-09-04T17:46:00.057Z"
+  },
+  {
+    "id": "wsm_1788543964426_2jccyt",
+    "workspaceId": "ws_1788543964187_9prz5i",
+    "userId": "usr_1788543964424",
+    "userEmail": "viewer_1788543964422@apifix.io",
+    "userName": "viewer_1788543964422",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:46:04.426Z",
+    "updatedAt": "2026-09-04T17:46:04.426Z"
+  },
+  {
+    "id": "wsm_1788543979203_gtpgdm",
+    "workspaceId": "ws_1788543979173_u19ky7",
+    "userId": "usr_sec_alpha_admin",
+    "userEmail": "admin@alpha-security.io",
+    "userName": "Alpha Admin",
+    "role": "ADMIN",
+    "createdAt": "2026-09-04T17:46:19.203Z",
+    "updatedAt": "2026-09-04T17:46:19.203Z"
+  },
+  {
+    "id": "wsm_1788543979218_ctecty",
+    "workspaceId": "ws_1788543979173_u19ky7",
+    "userId": "usr_sec_alpha_member",
+    "userEmail": "member@alpha-security.io",
+    "userName": "Alpha Member",
+    "role": "MEMBER",
+    "createdAt": "2026-09-04T17:46:19.218Z",
+    "updatedAt": "2026-09-04T17:46:19.218Z"
+  },
+  {
+    "id": "wsm_1788543979228_81kqf7",
+    "workspaceId": "ws_1788543979173_u19ky7",
+    "userId": "usr_sec_alpha_viewer",
+    "userEmail": "viewer@alpha-security.io",
+    "userName": "Alpha Viewer",
+    "role": "VIEWER",
+    "createdAt": "2026-09-04T17:46:19.228Z",
+    "updatedAt": "2026-09-04T17:46:19.228Z"
+  }
+]

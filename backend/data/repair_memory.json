@@ -1,0 +1,11 @@
+[
+  {
+    "id": "mem_1788543956627_fn4lf",
+    "failureType": "RUNTIME_ERROR",
+    "rootCausePattern": "Direct null or undefined dereference at src/controllers/authController.js:26. Missing guard check before property access.",
+    "framework": "Node/Express",
+    "repairStrategy": "INSERT_GUARD_CLAUSE",
+    "verification": "PASSED",
+    "timestamp": "2026-09-04T17:45:56.627Z"
+  }
+]

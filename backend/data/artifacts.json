@@ -1,0 +1,1138 @@
+[
+  {
+    "artifactId": "art_1788544079597",
+    "runId": "run_test_art_1788544079596",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T17:47:59.597Z"
+  },
+  {
+    "artifactId": "art_test_1788544062432",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T17:47:42.432Z"
+  },
+  {
+    "artifactId": "art_1788541893491",
+    "runId": "run_test_art_1788541893491",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T17:11:33.491Z"
+  },
+  {
+    "artifactId": "art_test_1788541867584",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T17:11:07.584Z"
+  },
+  {
+    "artifactId": "art_1788538823104",
+    "runId": "run_test_art_1788538823103",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T16:20:23.104Z"
+  },
+  {
+    "artifactId": "art_test_1788538804275",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T16:20:04.275Z"
+  },
+  {
+    "artifactId": "art_1788535879018",
+    "runId": "run_test_art_1788535879018",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T15:31:19.018Z"
+  },
+  {
+    "artifactId": "art_test_1788535864067",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T15:31:04.067Z"
+  },
+  {
+    "artifactId": "art_1788532406571",
+    "runId": "run_test_art_1788532406571",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T14:33:26.571Z"
+  },
+  {
+    "artifactId": "art_test_1788532395424",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T14:33:15.424Z"
+  },
+  {
+    "artifactId": "art_1788507287454",
+    "runId": "run_test_art_1788507287452",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T07:34:47.454Z"
+  },
+  {
+    "artifactId": "art_test_1788507272993",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T07:34:32.993Z"
+  },
+  {
+    "artifactId": "art_1788507109115",
+    "runId": "run_test_art_1788507109114",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T07:31:49.115Z"
+  },
+  {
+    "artifactId": "art_test_1788507078530",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T07:31:18.530Z"
+  },
+  {
+    "artifactId": "art_1788504214660",
+    "runId": "run_test_art_1788504214659",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T06:43:34.660Z"
+  },
+  {
+    "artifactId": "art_test_1788504203542",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T06:43:23.542Z"
+  },
+  {
+    "artifactId": "art_1788504060779",
+    "runId": "run_test_art_1788504060779",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T06:41:00.779Z"
+  },
+  {
+    "artifactId": "art_test_1788504045858",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T06:40:45.858Z"
+  },
+  {
+    "artifactId": "art_1788499405803",
+    "runId": "run_test_art_1788499405802",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-09-04T05:23:25.803Z"
+  },
+  {
+    "artifactId": "art_test_1788499396551",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-09-04T05:23:16.551Z"
+  },
+  {
+    "artifactId": "art_1787489618954",
+    "runId": "run_test_art_1787489618954",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-23T12:53:38.954Z"
+  },
+  {
+    "artifactId": "art_test_1787489607362",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-23T12:53:27.362Z"
+  },
+  {
+    "artifactId": "art_1787489437916",
+    "runId": "run_test_art_1787489437916",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-23T12:50:37.916Z"
+  },
+  {
+    "artifactId": "art_test_1787489425903",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-23T12:50:25.903Z"
+  },
+  {
+    "artifactId": "art_1787421977577",
+    "runId": "run_test_art_1787421977577",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T18:06:17.577Z"
+  },
+  {
+    "artifactId": "art_test_1787421967855",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T18:06:07.855Z"
+  },
+  {
+    "artifactId": "art_1787421801425",
+    "runId": "run_test_art_1787421801425",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T18:03:21.425Z"
+  },
+  {
+    "artifactId": "art_test_1787421791095",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T18:03:11.095Z"
+  },
+  {
+    "artifactId": "art_1787421509513",
+    "runId": "run_test_art_1787421509512",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T17:58:29.513Z"
+  },
+  {
+    "artifactId": "art_test_1787421499328",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T17:58:19.328Z"
+  },
+  {
+    "artifactId": "art_1787420508858",
+    "runId": "run_test_art_1787420508858",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T17:41:48.858Z"
+  },
+  {
+    "artifactId": "art_test_1787420494200",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T17:41:34.200Z"
+  },
+  {
+    "artifactId": "art_1787419275876",
+    "runId": "run_test_art_1787419275875",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T17:21:15.876Z"
+  },
+  {
+    "artifactId": "art_test_1787419265112",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T17:21:05.112Z"
+  },
+  {
+    "artifactId": "art_1787419209707",
+    "runId": "run_test_art_1787419209707",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T17:20:09.707Z"
+  },
+  {
+    "artifactId": "art_test_1787419198873",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T17:19:58.873Z"
+  },
+  {
+    "artifactId": "art_1787418431426",
+    "runId": "run_test_art_1787418431425",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T17:07:11.426Z"
+  },
+  {
+    "artifactId": "art_test_1787418421264",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T17:07:01.264Z"
+  },
+  {
+    "artifactId": "art_1787417936183",
+    "runId": "run_test_art_1787417936183",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T16:58:56.183Z"
+  },
+  {
+    "artifactId": "art_test_1787417925077",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T16:58:45.077Z"
+  },
+  {
+    "artifactId": "art_1787416883384",
+    "runId": "run_test_art_1787416883384",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T16:41:23.384Z"
+  },
+  {
+    "artifactId": "art_test_1787416872483",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T16:41:12.483Z"
+  },
+  {
+    "artifactId": "art_1787410958726",
+    "runId": "run_test_art_1787410958726",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T15:02:38.726Z"
+  },
+  {
+    "artifactId": "art_test_1787410931616",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T15:02:11.616Z"
+  },
+  {
+    "artifactId": "art_1787410095141",
+    "runId": "run_test_art_1787410095138",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:48:15.142Z"
+  },
+  {
+    "artifactId": "art_test_1787410068499",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:47:48.499Z"
+  },
+  {
+    "artifactId": "art_1787410021870",
+    "runId": "run_test_art_1787410021859",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:47:01.870Z"
+  },
+  {
+    "artifactId": "art_test_1787409993714",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:46:33.715Z"
+  },
+  {
+    "artifactId": "art_1787409893911",
+    "runId": "run_test_art_1787409893907",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:44:53.911Z"
+  },
+  {
+    "artifactId": "art_test_1787409864855",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:44:24.855Z"
+  },
+  {
+    "artifactId": "art_1787409285551",
+    "runId": "run_test_art_1787409285551",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:34:45.551Z"
+  },
+  {
+    "artifactId": "art_test_1787409271957",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:34:31.957Z"
+  },
+  {
+    "artifactId": "art_1787408377034",
+    "runId": "run_test_art_1787408377033",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:19:37.034Z"
+  },
+  {
+    "artifactId": "art_test_1787408365702",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:19:25.702Z"
+  },
+  {
+    "artifactId": "art_1787407685456_19nsva",
+    "runId": "run_github_1787407663618",
+    "zipPath": "c:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1787407663618.zip",
+    "sha256": "273efd3a2c0f854d4e8ea81651c1289e8a6d6372123650d71503d39842c8671c",
+    "sizeBytes": 48772,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:08:05.456Z"
+  },
+  {
+    "artifactId": "art_1787407543607_ef45up",
+    "runId": "run_github_1787407499613",
+    "zipPath": "c:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1787407499613.zip",
+    "sha256": "6f677e4954a2d4abcce7944ab37085952eafd5817dcc7eb76512f172821c8766",
+    "sizeBytes": 48772,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:05:43.607Z"
+  },
+  {
+    "artifactId": "art_1787407277657",
+    "runId": "run_test_art_1787407277657",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:01:17.657Z"
+  },
+  {
+    "artifactId": "art_test_1787407267204",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:01:07.204Z"
+  },
+  {
+    "artifactId": "art_1787407241800",
+    "runId": "run_test_art_1787407241799",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T14:00:41.800Z"
+  },
+  {
+    "artifactId": "art_test_1787407225618",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T14:00:25.618Z"
+  },
+  {
+    "artifactId": "art_1787407052978",
+    "runId": "run_test_art_1787407052978",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-22T13:57:32.978Z"
+  },
+  {
+    "artifactId": "art_test_1787407034064",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-22T13:57:14.064Z"
+  },
+  {
+    "artifactId": "art_1786986425591_ub5xfc",
+    "runId": "run_github_1786986374476",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786986374476.zip",
+    "sha256": "94415d0c1b245af8f2b27f614e033cb114c7a0d81b76828a5506fc2af6bc89b0",
+    "sizeBytes": 48798,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-17T17:07:05.591Z"
+  },
+  {
+    "artifactId": "art_1786985538617_7ghr69",
+    "runId": "run_github_1786985485110",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786985485110.zip",
+    "sha256": "0e0751a088c094efd2fc89988f41b932c1b124f0e61a38252e55595f45e761ab",
+    "sizeBytes": 48772,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-17T16:52:18.617Z"
+  },
+  {
+    "artifactId": "art_1786985302407",
+    "runId": "run_test_art_1786985302406",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-17T16:48:22.407Z"
+  },
+  {
+    "artifactId": "art_test_1786985284047",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-17T16:48:04.047Z"
+  },
+  {
+    "artifactId": "art_test_1786983361678",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-17T16:16:01.678Z"
+  },
+  {
+    "artifactId": "art_1786980735314_c5e44n",
+    "runId": "run_github_1786980682771",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786980682771.zip",
+    "sha256": "14362d72bb492f1a2f1215ca8d552f10bf85c913f35926b39e1cf8db4510e607",
+    "sizeBytes": 48790,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-17T15:32:15.314Z"
+  },
+  {
+    "artifactId": "art_1786980226632",
+    "runId": "run_test_art_1786980226629",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-17T15:23:46.632Z"
+  },
+  {
+    "artifactId": "art_test_1786980203229",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-17T15:23:23.229Z"
+  },
+  {
+    "artifactId": "art_1786908063774_pqccls",
+    "runId": "run_github_1786908042234",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786908042234.zip",
+    "sha256": "515ba01a367e8234e258c8effa20994f75c5551a08e2707d0ba6b56e3201e1e1",
+    "sizeBytes": 48797,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:21:03.774Z"
+  },
+  {
+    "artifactId": "art_1786907997536",
+    "runId": "run_test_art_1786907997535",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:19:57.536Z"
+  },
+  {
+    "artifactId": "art_test_1786907987991",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T19:19:47.991Z"
+  },
+  {
+    "artifactId": "art_1786907712530",
+    "runId": "run_test_art_1786907712530",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:15:12.530Z"
+  },
+  {
+    "artifactId": "art_test_1786907699822",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T19:14:59.822Z"
+  },
+  {
+    "artifactId": "art_1786907220192_jzivbv",
+    "runId": "run_github_1786907195006",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786907195006.zip",
+    "sha256": "8885beac50711a5169c42ed6162be14ca8abea8ff5bb06244552ed365b848195",
+    "sizeBytes": 48797,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:07:00.192Z"
+  },
+  {
+    "artifactId": "art_1786907133483_46shhm",
+    "runId": "run_github_1786907079125",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786907079125.zip",
+    "sha256": "bafec54d7bdbc3fdb0fd10b9949d93dbe392893dc62c3489b3f67cb8efee6de8",
+    "sizeBytes": 48797,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:05:33.483Z"
+  },
+  {
+    "artifactId": "art_1786907056421_7lpzmz",
+    "runId": "run_github_1786907000227",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786907000227.zip",
+    "sha256": "a47c8df4fb00ad30bf819b4359f6f2225cd5ba79ed4cef8bf7c4528bc630665f",
+    "sizeBytes": 48797,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:04:16.421Z"
+  },
+  {
+    "artifactId": "art_1786906959420_edrx1c",
+    "runId": "run_github_1786906905661",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786906905661.zip",
+    "sha256": "3e0e4d1a51fc230c6b25b13ac06fd25fe31f40e1b0894d41ffd908d926e8e63c",
+    "sizeBytes": 48813,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T19:02:39.420Z"
+  },
+  {
+    "artifactId": "art_1786906675391_d8nu11",
+    "runId": "run_github_1786906607468",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786906607468.zip",
+    "sha256": "8ddfb16175c04de929d4c819e6db4a338984144555058f360b26de44132843b6",
+    "sizeBytes": 48813,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T18:57:55.391Z"
+  },
+  {
+    "artifactId": "art_1786906624751_x4g6vc",
+    "runId": "run_github_1786906607468",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786906607468.zip",
+    "sha256": "8735fc5db6d8cbd96db4271c6a5019f22c30f802c53f7962efe78c1d32e46fd4",
+    "sizeBytes": 48813,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T18:57:04.751Z"
+  },
+  {
+    "artifactId": "art_1786906584261_ph4ssp",
+    "runId": "run_github_1786906578035",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786906578035.zip",
+    "sha256": "58b35356c3fc1484999a0282f51e3442b1763a27a954a2679d494449f5cf9875",
+    "sizeBytes": 48813,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T18:56:24.261Z"
+  },
+  {
+    "artifactId": "art_1786906354942",
+    "runId": "run_test_art_1786906354941",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T18:52:34.942Z"
+  },
+  {
+    "artifactId": "art_test_1786906341284",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T18:52:21.284Z"
+  },
+  {
+    "artifactId": "art_1786906303461",
+    "runId": "run_test_art_1786906303461",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T18:51:43.461Z"
+  },
+  {
+    "artifactId": "art_test_1786906280459",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T18:51:20.459Z"
+  },
+  {
+    "artifactId": "art_1786879626412",
+    "runId": "run_test_art_1786879626411",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T11:27:06.412Z"
+  },
+  {
+    "artifactId": "art_1786879613497",
+    "runId": "run_test_art_1786879613496",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-16T11:26:53.497Z"
+  },
+  {
+    "artifactId": "art_test_1786879604075",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T11:26:44.075Z"
+  },
+  {
+    "artifactId": "art_test_1786879570626",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-16T11:26:10.626Z"
+  },
+  {
+    "artifactId": "art_1786804146251_pf7mb3",
+    "runId": "run_github_1786803982257",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786803982257.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "sizeBytes": 22,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:29:06.251Z"
+  },
+  {
+    "artifactId": "art_1786803956427_2wep0b",
+    "runId": "run_github_1786803900498",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786803900498.zip",
+    "sha256": "359e9f0e66c974c36f5b9787d36babebbb11bd68877aa00607b0b58fb179dacb",
+    "sizeBytes": 48829,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:25:56.427Z"
+  },
+  {
+    "artifactId": "art_1786803916857_kwdsza",
+    "runId": "run_github_1786803900498",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786803900498.zip",
+    "sha256": "ba2c9e4fc042c545cd24ebcbfb4afa5260f853bf04a332f7bec1ea7031d44748",
+    "sizeBytes": 48829,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:25:16.857Z"
+  },
+  {
+    "artifactId": "art_1786803601510",
+    "runId": "run_test_art_1786803601510",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:20:01.510Z"
+  },
+  {
+    "artifactId": "art_test_1786803589788",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T14:19:49.788Z"
+  },
+  {
+    "artifactId": "art_1786803463665_8ox3vw",
+    "runId": "run_github_1786803399576",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\storage\\artifacts\\repaired_run_github_1786803399576.zip",
+    "sha256": "0ebd28b3671bedaa4e1463114450b3c760b5b172c6d9db7ac00f63af3a5f18df",
+    "sizeBytes": 48829,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:17:43.665Z"
+  },
+  {
+    "artifactId": "art_1786803376129",
+    "runId": "run_test_art_1786803376128",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:16:16.129Z"
+  },
+  {
+    "artifactId": "art_test_1786803364711",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T14:16:04.711Z"
+  },
+  {
+    "artifactId": "art_1786803344261",
+    "runId": "run_test_art_1786803344261",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:15:44.261Z"
+  },
+  {
+    "artifactId": "art_test_1786803331473",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T14:15:31.473Z"
+  },
+  {
+    "artifactId": "art_1786803328683",
+    "runId": "run_test_art_1786803328683",
+    "zipPath": "C:\\Users\\tejes\\OneDrive\\Desktop\\api_repair\\backend\\data\\test_phase6_scratch\\persisted_artifact.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 17,
+    "status": "VERIFIED",
+    "createdAt": "2026-08-15T14:15:28.683Z"
+  },
+  {
+    "artifactId": "art_test_1786803317927",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T14:15:17.927Z"
+  },
+  {
+    "artifactId": "art_test_1786803281109",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T14:14:41.109Z"
+  },
+  {
+    "artifactId": "art_test_1786800176862",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T13:22:56.862Z"
+  },
+  {
+    "artifactId": "art_test_1786799487079",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T13:11:27.079Z"
+  },
+  {
+    "artifactId": "art_test_1786793080545",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T11:24:40.545Z"
+  },
+  {
+    "artifactId": "art_test_1786789334756",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T10:22:14.756Z"
+  },
+  {
+    "artifactId": "art_test_1786786973573",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:42:53.573Z"
+  },
+  {
+    "artifactId": "art_test_1786785629031",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:20:29.031Z"
+  },
+  {
+    "artifactId": "art_test_1786785594561",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:19:54.561Z"
+  },
+  {
+    "artifactId": "art_test_1786785563920",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:19:23.920Z"
+  },
+  {
+    "artifactId": "art_test_1786785525784",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:18:45.784Z"
+  },
+  {
+    "artifactId": "art_test_1786785492606",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:18:12.606Z"
+  },
+  {
+    "artifactId": "art_test_1786785412089",
+    "verificationId": "verif_test_1",
+    "projectId": "proj_test_1",
+    "runId": "run_test_art_1",
+    "status": "VERIFIED",
+    "zipPath": "C:\\fake\\path\\verified.zip",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sizeBytes": 4096,
+    "createdAt": "2026-08-15T09:16:52.089Z"
+  }
+]

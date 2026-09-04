@@ -1,0 +1,71 @@
+[
+  {
+    "name": "autonomous_repair_v22",
+    "description": "Enables advanced autonomous patch synthesis and bounded self-healing",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 100,
+    "targetEntities": [],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "actorId": "system_init"
+  },
+  {
+    "name": "finops_predictive_budgeting",
+    "description": "Enables predictive budget burn-rate tracking and anomaly alerts",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 100,
+    "targetEntities": [],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "actorId": "system_init"
+  },
+  {
+    "name": "persistent_job_queue_v22",
+    "description": "Routes background repair workloads through the durable job queue",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 100,
+    "targetEntities": [],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "actorId": "system_init"
+  },
+  {
+    "name": "beta_ai_model_v2",
+    "description": "",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 0,
+    "targetEntities": [
+      "user_vip_123",
+      "ws_enterprise_titan"
+    ],
+    "createdAt": "2026-09-04T07:23:57.092Z",
+    "updatedAt": "2026-09-04T17:46:45.874Z",
+    "actorId": "admin_user"
+  },
+  {
+    "name": "experimental_sandbox_v2",
+    "description": "",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 50,
+    "targetEntities": [],
+    "createdAt": "2026-09-04T07:23:57.097Z",
+    "updatedAt": "2026-09-04T17:46:45.890Z",
+    "actorId": "admin_user"
+  },
+  {
+    "name": "PHASE24_AUTOSCALING_ACTIVE",
+    "description": "",
+    "enabled": true,
+    "scope": "GLOBAL",
+    "rolloutPercentage": 100,
+    "targetEntities": [],
+    "createdAt": "2026-09-04T15:25:58.807Z",
+    "updatedAt": "2026-09-04T17:46:54.814Z",
+    "actorId": "admin"
+  }
+]

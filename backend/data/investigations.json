@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "inv_test_1788544054585",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788544054585",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T17:47:34.585Z"
+  },
+  {
+    "id": "inv_test_1788541853526",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788541853526",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T17:10:53.526Z"
+  },
+  {
+    "id": "inv_test_1788538798940",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788538798940",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T16:19:58.940Z"
+  },
+  {
+    "id": "inv_test_1788535856762",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788535856762",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T15:30:56.762Z"
+  },
+  {
+    "id": "inv_test_1788532391973",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788532391973",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T14:33:11.973Z"
+  },
+  {
+    "id": "inv_test_1788507269811",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788507269811",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T07:34:29.811Z"
+  },
+  {
+    "id": "inv_test_1788507073643",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788507073643",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T07:31:13.643Z"
+  },
+  {
+    "id": "inv_test_1788504198533",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788504198533",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T06:43:18.533Z"
+  },
+  {
+    "id": "inv_test_1788504041159",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788504041159",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T06:40:41.159Z"
+  },
+  {
+    "id": "inv_test_1788499392162",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1788499392162",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-09-04T05:23:12.162Z"
+  },
+  {
+    "id": "inv_test_1787489603242",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787489603242",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-23T12:53:23.243Z"
+  },
+  {
+    "id": "inv_test_1787489420841",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787489420841",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-23T12:50:20.841Z"
+  },
+  {
+    "id": "inv_test_1787421963221",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787421963221",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T18:06:03.221Z"
+  },
+  {
+    "id": "inv_test_1787421785524",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787421785524",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T18:03:05.524Z"
+  },
+  {
+    "id": "inv_test_1787421495917",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787421495917",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T17:58:15.917Z"
+  },
+  {
+    "id": "inv_test_1787420490170",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787420490170",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T17:41:30.170Z"
+  },
+  {
+    "id": "inv_test_1787419262238",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787419262238",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T17:21:02.239Z"
+  },
+  {
+    "id": "inv_test_1787419195767",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787419195767",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T17:19:55.767Z"
+  },
+  {
+    "id": "inv_test_1787418418162",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787418418162",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T17:06:58.162Z"
+  },
+  {
+    "id": "inv_test_1787417921804",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787417921804",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T16:58:41.804Z"
+  },
+  {
+    "id": "inv_test_1787416870039",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787416870039",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T16:41:10.040Z"
+  },
+  {
+    "id": "inv_test_1787410928191",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787410928191",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T15:02:08.191Z"
+  },
+  {
+    "id": "inv_test_1787410064744",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787410064744",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:47:44.745Z"
+  },
+  {
+    "id": "inv_test_1787409989771",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787409989771",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:46:29.771Z"
+  },
+  {
+    "id": "inv_test_1787409861245",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787409861245",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:44:21.245Z"
+  },
+  {
+    "id": "inv_test_1787409268665",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787409268665",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:34:28.665Z"
+  },
+  {
+    "id": "inv_test_1787408362686",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787408362686",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:19:22.686Z"
+  },
+  {
+    "id": "inv_test_1787407263616",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787407263616",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:01:03.616Z"
+  },
+  {
+    "id": "inv_test_1787407214718",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787407214718",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T14:00:14.718Z"
+  },
+  {
+    "id": "inv_test_1787407032310",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1787407032310",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-22T13:57:12.310Z"
+  },
+  {
+    "id": "inv_test_1786985314777",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786985314777",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-17T16:48:34.777Z"
+  },
+  {
+    "id": "inv_test_1786983357757",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786983357757",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-17T16:15:57.757Z"
+  },
+  {
+    "id": "inv_test_1786980155794",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786980155794",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-17T15:22:35.794Z"
+  },
+  {
+    "id": "inv_test_1786907696186",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786907696186",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-16T19:14:56.186Z"
+  },
+  {
+    "id": "inv_test_1786906277232",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786906277232",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-16T18:51:17.233Z"
+  },
+  {
+    "id": "inv_test_1786887940675",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786887940675",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-16T13:45:40.675Z"
+  },
+  {
+    "id": "inv_test_1786879569221",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786879569221",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-16T11:26:09.221Z"
+  },
+  {
+    "id": "inv_test_1786803721417",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803721417",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:22:01.418Z"
+  },
+  {
+    "id": "inv_test_1786803684223",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803684223",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:21:24.223Z"
+  },
+  {
+    "id": "inv_test_1786803605327",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803605327",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:20:05.327Z"
+  },
+  {
+    "id": "inv_test_1786803586927",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803586927",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:19:46.928Z"
+  },
+  {
+    "id": "inv_test_1786803315181",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803315181",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:15:15.182Z"
+  },
+  {
+    "id": "inv_test_1786803278637",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786803278637",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T14:14:38.638Z"
+  },
+  {
+    "id": "inv_test_1786800174144",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786800174144",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T13:22:54.144Z"
+  },
+  {
+    "id": "inv_test_1786799483973",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786799483973",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T13:11:23.973Z"
+  },
+  {
+    "id": "inv_test_1786793077913",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786793077913",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T11:24:37.913Z"
+  },
+  {
+    "id": "inv_test_1786789328932",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786789328932",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T10:22:08.932Z"
+  },
+  {
+    "id": "inv_test_1786786967432",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786786967432",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T09:42:47.432Z"
+  },
+  {
+    "id": "inv_1786786693488_tlpcwg",
+    "projectId": "proj_1786786656482_5bjx2x",
+    "runId": "run_analysis_1786786661093_bcbcba",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Unhandled exception during request processing.",
+      "explanation": "The endpoint crashed due to an unhandled runtime error.",
+      "file": "src/server.js",
+      "line": 20,
+      "snippet": "  10 | \n  11 | // Request logging middleware\n  12 | app.use((req, res, next) => {\n  13 |   console.log(`[demo-api] ${req.method} ${req.path}`);\n  14 |   next();\n  15 | });\n  16 | \n  17 | // Routes\n  18 | app.get('/health', (req, res) => res.status(200).json({ status: 'ok', service: 'demo-api' }));\n  19 | app.get('/api/users', getUsers);\n  20 | app.post('/api/auth/login', login);\n  21 | app.get('/api/products', getProducts);\n  22 | \n  23 | // Global Error Handler\n  24 | app.use((err, req, res, next) => {\n  25 |   console.error('[demo-api Exception]', err.stack);\n  26 |   res.status(500).json({\n  27 |     error: 'Internal Server Error',\n  28 |     message: err.message,\n  29 |     stack: err.stack\n  30 |   });\n  31 | });\n  32 | \n  33 | const PORT = process.env.PORT || 4001;\n  34 | if (require.main === module) {\n  35 |   app.listen(PORT, () => {"
+    },
+    "evidence": [
+      {
+        "type": "reproduced_http_failure",
+        "detail": "Observed HTTP 500 during live reproduction probe",
+        "endpoint": "POST /api/auth/login"
+      },
+      {
+        "type": "runtime_stack_trace",
+        "file": "src/server.js",
+        "line": 20,
+        "error": "TypeError: Cannot read properties of null (reading 'password')"
+      },
+      {
+        "type": "source_correlation",
+        "file": "src/server.js",
+        "line": 20,
+        "snippet": "  10 | \n  11 | // Request logging middleware\n  12 | app.use((req, res, next) => {\n  13 |   console.log(`[demo-api] ${req.method} ${req.path}`);\n  14 |   next();\n  15 | });\n  16 | \n  17 | // Routes\n  18 | app.get('/health', (req, res) => res.status(200).json({ status: 'ok', service: 'demo-api' }));\n  19 | app.get('/api/users', getUsers);\n  20 | app.post('/api/auth/login', login);\n  21 | app.get('/api/products', getProducts);\n  22 | \n  23 | // Global Error Handler\n  24 | app.use((err, req, res, next) => {\n  25 |   console.error('[demo-api Exception]', err.stack);\n  26 |   res.status(500).json({\n  27 |     error: 'Internal Server Error',\n  28 |     message: err.message,\n  29 |     stack: err.stack\n  30 |   });\n  31 | });\n  32 | \n  33 | const PORT = process.env.PORT || 4001;\n  34 | if (require.main === module) {\n  35 |   app.listen(PORT, () => {"
+      }
+    ],
+    "repairStrategy": {
+      "summary": "Add appropriate validation and exception handling before dereferencing properties.",
+      "filesLikelyAffected": [
+        "src/server.js"
+      ]
+    },
+    "hypotheses": [
+      {
+        "description": "Missing null check on database/lookup entity prior to property access.",
+        "supportingEvidence": [
+          "Stack trace matches property dereference location",
+          "HTTP 500 reproduced on non-existent test user credentials",
+          "Source inspection reveals unguarded property dereference"
+        ],
+        "confidence": "HIGH"
+      }
+    ],
+    "model": "apifix-semantic-analyzer-v2",
+    "provider": "local-ast-engine",
+    "confidence": null,
+    "createdAt": "2026-08-15T09:38:13.488Z"
+  },
+  {
+    "id": "inv_test_1786785622933",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786785622933",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T09:20:22.933Z"
+  },
+  {
+    "id": "inv_test_1786784679726",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786784679726",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T09:04:39.726Z"
+  },
+  {
+    "id": "inv_test_1786783707776",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786783707776",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T08:48:27.776Z"
+  },
+  {
+    "id": "inv_test_1786783659160",
+    "projectId": "proj_test_store",
+    "runId": "run_test_1786783659160",
+    "findingId": "finding_1",
+    "status": "COMPLETED",
+    "rootCause": {
+      "summary": "Null check missing",
+      "explanation": "User is null on bad lookup",
+      "file": "src/auth.js",
+      "line": 20
+    },
+    "evidence": [],
+    "repairStrategy": {
+      "summary": "Add guard",
+      "filesLikelyAffected": [
+        "src/auth.js"
+      ]
+    },
+    "hypotheses": [],
+    "model": "local-ast-engine",
+    "provider": "local",
+    "confidence": null,
+    "createdAt": "2026-08-15T08:47:39.160Z"
+  }
+]

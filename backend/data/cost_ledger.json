@@ -1,0 +1,747 @@
+[
+  {
+    "id": "cst_1788543981096_7y0wsi",
+    "orgId": "org_1788543980887_rec6h4",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T17:46:21.096Z"
+  },
+  {
+    "id": "cst_1788543981085_pfcnky",
+    "orgId": "org_1788543980887_rec6h4",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T17:46:21.085Z"
+  },
+  {
+    "id": "cst_1788543981083_xzd9hb",
+    "orgId": "org_1788543980887_rec6h4",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T17:46:21.083Z"
+  },
+  {
+    "id": "cst_1788541770713_s4j3bp",
+    "orgId": "org_1788541770511_0dub7g",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T17:09:30.713Z"
+  },
+  {
+    "id": "cst_1788541770701_8byg3d",
+    "orgId": "org_1788541770511_0dub7g",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T17:09:30.701Z"
+  },
+  {
+    "id": "cst_1788541770698_cj7hc4",
+    "orgId": "org_1788541770511_0dub7g",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T17:09:30.698Z"
+  },
+  {
+    "id": "cst_1788538738287_vf2ohv",
+    "orgId": "org_1788538738186_hkhdry",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T16:18:58.287Z"
+  },
+  {
+    "id": "cst_1788538738281_tbgduw",
+    "orgId": "org_1788538738186_hkhdry",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T16:18:58.281Z"
+  },
+  {
+    "id": "cst_1788538738280_q5s62x",
+    "orgId": "org_1788538738186_hkhdry",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T16:18:58.280Z"
+  },
+  {
+    "id": "cst_1788535794878_4i3tn2",
+    "orgId": "org_1788535794792_lewl7i",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T15:29:54.878Z"
+  },
+  {
+    "id": "cst_1788535794872_0zj19h",
+    "orgId": "org_1788535794792_lewl7i",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T15:29:54.872Z"
+  },
+  {
+    "id": "cst_1788535794871_p4hyn4",
+    "orgId": "org_1788535794792_lewl7i",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T15:29:54.871Z"
+  },
+  {
+    "id": "cst_1788534244496_mxzxkk",
+    "orgId": "org_1788534244492_nvuok1",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T15:04:04.496Z"
+  },
+  {
+    "id": "cst_1788534244392_0ss7mb",
+    "orgId": "org_1788534244353_fhjjb9",
+    "workspaceId": "ws_apex_1788534244358",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T15:04:04.392Z"
+  },
+  {
+    "id": "cst_1788534116027_kqxb0c",
+    "orgId": "org_1788534115962_ur524k",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T15:01:56.027Z"
+  },
+  {
+    "id": "cst_1788534116023_cgngir",
+    "orgId": "org_1788534115962_ur524k",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T15:01:56.023Z"
+  },
+  {
+    "id": "cst_1788534116022_gfs7bh",
+    "orgId": "org_1788534115962_ur524k",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T15:01:56.022Z"
+  },
+  {
+    "id": "cst_1788533890956_bcpyto",
+    "orgId": "org_1788533890950_l98w16",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:58:10.956Z"
+  },
+  {
+    "id": "cst_1788533890875_k1jg5o",
+    "orgId": "org_1788533890811_buovk2",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:58:10.875Z"
+  },
+  {
+    "id": "cst_1788533890870_2n262n",
+    "orgId": "org_1788533890811_buovk2",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:58:10.870Z"
+  },
+  {
+    "id": "cst_1788533890869_8yspyx",
+    "orgId": "org_1788533890811_buovk2",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:58:10.869Z"
+  },
+  {
+    "id": "cst_1788533890843_u15oi3",
+    "orgId": "org_1788533890809_ssqslf",
+    "workspaceId": "ws_apex_1788533890815",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:58:10.843Z"
+  },
+  {
+    "id": "cst_1788532991769_b2yn77",
+    "orgId": "org_1788532991762_wsb8z0",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:43:11.769Z"
+  },
+  {
+    "id": "cst_1788532991537_azimbr",
+    "orgId": "org_1788532991420_s0fs7t",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:43:11.537Z"
+  },
+  {
+    "id": "cst_1788532991527_spnavw",
+    "orgId": "org_1788532991420_s0fs7t",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:43:11.527Z"
+  },
+  {
+    "id": "cst_1788532991526_9e3dbp",
+    "orgId": "org_1788532991420_s0fs7t",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:43:11.526Z"
+  },
+  {
+    "id": "cst_1788532991482_dirl3r",
+    "orgId": "org_1788532991429_97itb5",
+    "workspaceId": "ws_apex_1788532991434",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:43:11.482Z"
+  },
+  {
+    "id": "cst_1788532426688_z6xz4e",
+    "orgId": "org_1788532426682_vrajop",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:33:46.688Z"
+  },
+  {
+    "id": "cst_1788532426444_lnqib4",
+    "orgId": "org_1788532426376_dvt9m7",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:33:46.444Z"
+  },
+  {
+    "id": "cst_1788532426440_scavoh",
+    "orgId": "org_1788532426376_dvt9m7",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T14:33:46.440Z"
+  },
+  {
+    "id": "cst_1788532426439_pra52i",
+    "orgId": "org_1788532426376_dvt9m7",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:33:46.439Z"
+  },
+  {
+    "id": "cst_1788532426416_70fuhs",
+    "orgId": "org_1788532426374_78877u",
+    "workspaceId": "ws_apex_1788532426380",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T14:33:46.416Z"
+  },
+  {
+    "id": "cst_1788507480975_1xz3by",
+    "orgId": "org_1788507480902_bpdpkl",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T07:38:00.975Z"
+  },
+  {
+    "id": "cst_1788507480970_nyr8ia",
+    "orgId": "org_1788507480902_bpdpkl",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T07:38:00.970Z"
+  },
+  {
+    "id": "cst_1788507480969_coag9z",
+    "orgId": "org_1788507480902_bpdpkl",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T07:38:00.969Z"
+  },
+  {
+    "id": "cst_1788507071093_lsiwvg",
+    "orgId": "org_1788507071021_yv5zu9",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T07:31:11.093Z"
+  },
+  {
+    "id": "cst_1788507071087_e86cpa",
+    "orgId": "org_1788507071021_yv5zu9",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T07:31:11.087Z"
+  },
+  {
+    "id": "cst_1788507071086_42p4wn",
+    "orgId": "org_1788507071021_yv5zu9",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T07:31:11.086Z"
+  },
+  {
+    "id": "cst_1788504153565_pa34ri",
+    "orgId": "org_1788504153335_xldyh3",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T06:42:33.565Z"
+  },
+  {
+    "id": "cst_1788504153552_skw68d",
+    "orgId": "org_1788504153335_xldyh3",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T06:42:33.552Z"
+  },
+  {
+    "id": "cst_1788504153551_hdg8xj",
+    "orgId": "org_1788504153335_xldyh3",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T06:42:33.551Z"
+  },
+  {
+    "id": "cst_1788503995271_djf98h",
+    "orgId": "org_1788503995063_2sjqfy",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T06:39:55.271Z"
+  },
+  {
+    "id": "cst_1788503995257_el888a",
+    "orgId": "org_1788503995063_2sjqfy",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T06:39:55.257Z"
+  },
+  {
+    "id": "cst_1788503995256_vs5piy",
+    "orgId": "org_1788503995063_2sjqfy",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T06:39:55.256Z"
+  },
+  {
+    "id": "cst_1788499414447_8tvisa",
+    "orgId": "org_1788499414425_3y01kg",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:23:34.447Z"
+  },
+  {
+    "id": "cst_1788499414310_but0vf",
+    "orgId": "org_1788499414197_86simn",
+    "workspaceId": "ws_apex_1788499414212",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:23:34.310Z"
+  },
+  {
+    "id": "cst_1788499358886_psakel",
+    "orgId": "org_1788499358706_jz5a2f",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:22:38.886Z"
+  },
+  {
+    "id": "cst_1788499358875_fih2y6",
+    "orgId": "org_1788499358706_jz5a2f",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:22:38.875Z"
+  },
+  {
+    "id": "cst_1788499358874_df0pta",
+    "orgId": "org_1788499358706_jz5a2f",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:22:38.874Z"
+  },
+  {
+    "id": "cst_1788498865156_n9e824",
+    "orgId": "org_1788498865128_3sajg4",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:14:25.156Z"
+  },
+  {
+    "id": "cst_1788498857956_wut4b8",
+    "orgId": "org_1788498857792_c2gf84",
+    "workspaceId": "ws_apex_1788498857845",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:14:17.956Z"
+  },
+  {
+    "id": "cst_1788498829978_5dh2yl",
+    "orgId": "org_1788498829954_7p3x9n",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:13:49.978Z"
+  },
+  {
+    "id": "cst_1788498822710_lp5fh9",
+    "orgId": "org_1788498822575_8gq6du",
+    "workspaceId": "ws_apex_1788498822610",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:13:42.710Z"
+  },
+  {
+    "id": "cst_1788498809163_7hl6zt",
+    "orgId": "org_1788498809133_o10jtz",
+    "workspaceId": "ws_tiny_ws",
+    "category": "AI",
+    "amount": 6,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:13:29.163Z"
+  },
+  {
+    "id": "cst_1788498801936_8f1u3y",
+    "orgId": "org_1788498801773_ubivfq",
+    "workspaceId": "ws_apex_1788498801828",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_e2e_verified_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:13:21.936Z"
+  },
+  {
+    "id": "cst_1788498741116_bp04ca",
+    "orgId": "org_1788498740864_oxd6fp",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:12:21.116Z"
+  },
+  {
+    "id": "cst_1788498741105_r29u8z",
+    "orgId": "org_1788498740864_oxd6fp",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:12:21.105Z"
+  },
+  {
+    "id": "cst_1788498741104_oavhrz",
+    "orgId": "org_1788498740864_oxd6fp",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:12:21.104Z"
+  },
+  {
+    "id": "cst_1788498683741_pevnud",
+    "orgId": "org_1788498683537_2dlk8m",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:11:23.741Z"
+  },
+  {
+    "id": "cst_1788498683729_pbwfn0",
+    "orgId": "org_1788498683537_2dlk8m",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:11:23.729Z"
+  },
+  {
+    "id": "cst_1788498683723_tz798l",
+    "orgId": "org_1788498683537_2dlk8m",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:11:23.723Z"
+  },
+  {
+    "id": "cst_1788498645843_hdye63",
+    "orgId": "org_1788498645667_ujbea3",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:10:45.843Z"
+  },
+  {
+    "id": "cst_1788498645833_px5m6g",
+    "orgId": "org_1788498645667_ujbea3",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:10:45.833Z"
+  },
+  {
+    "id": "cst_1788498645832_jygnry",
+    "orgId": "org_1788498645667_ujbea3",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:10:45.832Z"
+  },
+  {
+    "id": "cst_1788498609100_xd7k7l",
+    "orgId": "org_1788498608897_pvgx4b",
+    "workspaceId": "ws_titan_core",
+    "category": "AI",
+    "amount": 8.5,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:10:09.100Z"
+  },
+  {
+    "id": "cst_1788498609090_m3ciqp",
+    "orgId": "org_1788498608897_pvgx4b",
+    "workspaceId": "ws_titan_core",
+    "category": "SYNTHETIC_PROBE",
+    "amount": 0.002,
+    "units": 1,
+    "metadata": {},
+    "timestamp": "2026-09-04T05:10:09.090Z"
+  },
+  {
+    "id": "cst_1788498609090_049s0s",
+    "orgId": "org_1788498608897_pvgx4b",
+    "workspaceId": "ws_titan_core",
+    "category": "REPAIR_RUN",
+    "amount": 0.05,
+    "units": 1,
+    "metadata": {
+      "runId": "run_test_gov_01",
+      "verified": true
+    },
+    "timestamp": "2026-09-04T05:10:09.090Z"
+  }
+]

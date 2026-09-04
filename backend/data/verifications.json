@@ -1,0 +1,31 @@
+[
+  {
+    "verificationId": "verif_test_1788544062427",
+    "projectId": "proj_test_1",
+    "runId": "run_test_1",
+    "patchId": "patch_test_1",
+    "status": "VERIFIED",
+    "target": {
+      "method": "POST",
+      "path": "/api/auth/login"
+    },
+    "before": {
+      "status": 500,
+      "category": "RUNTIME_EXCEPTION"
+    },
+    "after": {
+      "status": 401,
+      "error": null
+    },
+    "targetFailureResolved": true,
+    "tests": {
+      "status": "PASSED",
+      "passed": 1,
+      "failed": 0
+    },
+    "regressions": [],
+    "originalWorkspaceUnchanged": true,
+    "decisionReason": "Crash resolved with 401",
+    "verifiedAt": "2026-09-04T17:47:42.427Z"
+  }
+]

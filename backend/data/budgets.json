@@ -1,0 +1,277 @@
+[
+  {
+    "scopeId": "org_1788498608897_pvgx4b",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:10:09.093Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498645667_ujbea3",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:10:45.836Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498683537_2dlk8m",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:11:23.733Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498740864_oxd6fp",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:12:21.109Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498809133_o10jtz",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:13:29.149Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498829954_7p3x9n",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:13:49.966Z"
+    }
+  },
+  {
+    "scopeId": "org_1788498865128_3sajg4",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:14:25.144Z"
+    }
+  },
+  {
+    "scopeId": "org_1788499358706_jz5a2f",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:22:38.879Z"
+    }
+  },
+  {
+    "scopeId": "org_1788499414425_3y01kg",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T05:23:34.438Z"
+    }
+  },
+  {
+    "scopeId": "org_1788503995063_2sjqfy",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T06:39:55.261Z"
+    }
+  },
+  {
+    "scopeId": "org_1788504153335_xldyh3",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T06:42:33.555Z"
+    }
+  },
+  {
+    "scopeId": "org_1788507071021_yv5zu9",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T07:31:11.092Z"
+    }
+  },
+  {
+    "scopeId": "org_1788507480902_bpdpkl",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T07:38:00.974Z"
+    }
+  },
+  {
+    "scopeId": "org_1788532426376_dvt9m7",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:33:46.443Z"
+    }
+  },
+  {
+    "scopeId": "org_1788532426682_vrajop",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:33:46.687Z"
+    }
+  },
+  {
+    "scopeId": "org_1788532991420_s0fs7t",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:43:11.534Z"
+    }
+  },
+  {
+    "scopeId": "org_1788532991762_wsb8z0",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:43:11.768Z"
+    }
+  },
+  {
+    "scopeId": "org_1788533890811_buovk2",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:58:10.874Z"
+    }
+  },
+  {
+    "scopeId": "org_1788533890950_l98w16",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T14:58:10.954Z"
+    }
+  },
+  {
+    "scopeId": "org_1788534115962_ur524k",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T15:01:56.026Z"
+    }
+  },
+  {
+    "scopeId": "org_1788534244492_nvuok1",
+    "budget": {
+      "monthlyBudget": 5,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T15:04:04.495Z"
+    }
+  },
+  {
+    "scopeId": "org_1788535794792_lewl7i",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T15:29:54.875Z"
+    }
+  },
+  {
+    "scopeId": "org_1788538738186_hkhdry",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T16:18:58.284Z"
+    }
+  },
+  {
+    "scopeId": "org_1788541770511_0dub7g",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T17:09:30.707Z"
+    }
+  },
+  {
+    "scopeId": "org_1788543980887_rec6h4",
+    "budget": {
+      "monthlyBudget": 10,
+      "warningThresholdPct": 80,
+      "criticalThresholdPct": 90,
+      "hardLimitPct": 100,
+      "currency": "USD",
+      "updatedAt": "2026-09-04T17:46:21.090Z"
+    }
+  }
+]

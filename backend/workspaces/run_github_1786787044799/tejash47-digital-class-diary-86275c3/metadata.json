@@ -1,0 +1,6 @@
+{
+  "name": "Digital Class Diary",
+  "description": "A complete, production-ready full-stack learning management platform connecting teachers and students with classroom timelines, doubt sessions, and automated AI summaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,62 @@
+{
+  "investigationId": "inv_1786803316855_hg110o",
+  "projectId": "proj_phase4_demo_1786803315206",
+  "runId": "run_phase4_demo_1786803316849",
+  "findingId": "finding_1",
+  "createdAt": "2026-08-15T14:15:16.855Z",
+  "status": "COMPLETED",
+  "endpoint": {
+    "method": "POST",
+    "path": "/api/auth/login"
+  },
+  "failure": {
+    "category": "RUNTIME_EXCEPTION",
+    "statusCode": 500
+  },
+  "rootCause": {
+    "summary": "User record lookup returns null on unknown/invalid credentials before password property is dereferenced.",
+    "explanation": "In `src/controllers/authController.js` around line 14, the authentication handler accesses `user.password` without verifying that the database/user lookup returned a valid user record. When an unseeded or invalid user requests login, the lookup yields `null`, triggering a `TypeError: Cannot read properties of null`.",
+    "file": "src/controllers/authController.js",
+    "line": 14,
+    "snippet": "   4 |   { id: 'usr_2', email: 'dev@apifix.ai', password: 'password456', name: 'Dev Engineer' }\n   5 | ];\n   6 | \n   7 | /**\n   8 |  * Handle Auth Login\n   9 |  * NOTE: Intentionally seeded bug for APIFIX AI reproduction:\n  10 |  * When an unknown email is provided, `user` lookup returns `null`.\n  11 |  * The code directly accesses `user.password` without checking if `user` is null,\n  12 |  * resulting in: TypeError: Cannot read properties of null (reading 'password')\n  13 |  * which causes an unhandled HTTP 500 Internal Server Error.\n  14 |  */\n  15 | function login(req, res) {\n  16 |   const { email, password } = req.body || {};\n  17 | \n  18 |   if (!email) {\n  19 |     return res.status(400).json({ error: 'Email parameter is required' });\n  20 |   }\n  21 | \n  22 |   // Database lookup returns null if email is not found\n  23 |   const user = usersDatabase.find(u => u.email === email) || null;\n  24 | \n  25 |   // BUG: Direct property access on user without null check\n  26 |   // REPAIRED BY APIFIX AI: Safe null check before property dereference\n  27 |   if (!user) {\n  28 |     return res.status(404).json({ error: 'User account not found' });\n  29 |   }"
+  },
+  "evidence": [
+    {
+      "type": "reproduced_http_failure",
+      "detail": "Observed HTTP 500 during live reproduction probe",
+      "endpoint": "POST /api/auth/login"
+    },
+    {
+      "type": "runtime_stack_trace",
+      "file": "src/controllers/authController.js",
+      "line": 14,
+      "error": "Cannot read properties of null (reading 'password')"
+    },
+    {
+      "type": "source_correlation",
+      "file": "src/controllers/authController.js",
+      "line": 14,
+      "snippet": "   4 |   { id: 'usr_2', email: 'dev@apifix.ai', password: 'password456', name: 'Dev Engineer' }\n   5 | ];\n   6 | \n   7 | /**\n   8 |  * Handle Auth Login\n   9 |  * NOTE: Intentionally seeded bug for APIFIX AI reproduction:\n  10 |  * When an unknown email is provided, `user` lookup returns `null`.\n  11 |  * The code directly accesses `user.password` without checking if `user` is null,\n  12 |  * resulting in: TypeError: Cannot read properties of null (reading 'password')\n  13 |  * which causes an unhandled HTTP 500 Internal Server Error.\n  14 |  */\n  15 | function login(req, res) {\n  16 |   const { email, password } = req.body || {};\n  17 | \n  18 |   if (!email) {\n  19 |     return res.status(400).json({ error: 'Email parameter is required' });\n  20 |   }\n  21 | \n  22 |   // Database lookup returns null if email is not found\n  23 |   const user = usersDatabase.find(u => u.email === email) || null;\n  24 | \n  25 |   // BUG: Direct property access on user without null check\n  26 |   // REPAIRED BY APIFIX AI: Safe null check before property dereference\n  27 |   if (!user) {\n  28 |     return res.status(404).json({ error: 'User account not found' });\n  29 |   }"
+    }
+  ],
+  "hypotheses": [
+    {
+      "description": "Missing null check on database/lookup entity prior to property access.",
+      "supportingEvidence": [
+        "Stack trace matches property dereference location",
+        "HTTP 500 reproduced on non-existent test user credentials",
+        "Source inspection reveals unguarded property dereference"
+      ],
+      "confidence": "HIGH"
+    }
+  ],
+  "repairStrategy": {
+    "summary": "Insert an explicit null check for the lookup result (`if (!user) { return res.status(401).json({ error: \"Invalid credentials\" }); }`) before accessing `user.password`.",
+    "filesLikelyAffected": [
+      "src/controllers/authController.js"
+    ]
+  },
+  "confidence": null,
+  "model": "apifix-semantic-analyzer-v2",
+  "provider": "local-ast-engine"
+}

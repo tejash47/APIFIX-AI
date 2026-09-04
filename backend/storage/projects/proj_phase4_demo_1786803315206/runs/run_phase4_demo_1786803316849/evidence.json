@@ -1,0 +1,1 @@
+{"primaryFailure":{"endpoint":{"method":"POST","path":"/api/auth/login"},"httpStatus":500,"category":"RUNTIME_EXCEPTION","sourceFile":"src/controllers/authController.js","sourceLine":14,"evidence":{"stderrSnippet":"TypeError: Cannot read properties of null (reading 'password')\n    at login (src/controllers/authController.js:14:22)"}}}

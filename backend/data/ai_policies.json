@@ -1,0 +1,461 @@
+[
+  {
+    "scopeId": "org_1788498608897_pvgx4b",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T05:10:09.079Z"
+    },
+    "createdAt": "2026-09-04T05:10:09.079Z",
+    "updatedAt": "2026-09-04T05:10:09.079Z"
+  },
+  {
+    "scopeId": "org_1788498645667_ujbea3",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T05:10:45.822Z"
+    },
+    "createdAt": "2026-09-04T05:10:45.822Z",
+    "updatedAt": "2026-09-04T05:10:45.822Z"
+  },
+  {
+    "scopeId": "org_1788498683537_2dlk8m",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T05:11:23.700Z"
+    },
+    "createdAt": "2026-09-04T05:11:23.700Z",
+    "updatedAt": "2026-09-04T05:11:23.700Z"
+  },
+  {
+    "scopeId": "org_1788498740864_oxd6fp",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T05:12:21.094Z"
+    },
+    "createdAt": "2026-09-04T05:12:21.094Z",
+    "updatedAt": "2026-09-04T05:12:21.094Z"
+  },
+  {
+    "scopeId": "org_1788499358706_jz5a2f",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T05:22:38.863Z"
+    },
+    "createdAt": "2026-09-04T05:22:38.863Z",
+    "updatedAt": "2026-09-04T05:22:38.863Z"
+  },
+  {
+    "scopeId": "org_1788503995063_2sjqfy",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T06:39:55.244Z"
+    },
+    "createdAt": "2026-09-04T06:39:55.244Z",
+    "updatedAt": "2026-09-04T06:39:55.244Z"
+  },
+  {
+    "scopeId": "org_1788504153335_xldyh3",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T06:42:33.538Z"
+    },
+    "createdAt": "2026-09-04T06:42:33.538Z",
+    "updatedAt": "2026-09-04T06:42:33.538Z"
+  },
+  {
+    "scopeId": "org_1788507071021_yv5zu9",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T07:31:11.080Z"
+    },
+    "createdAt": "2026-09-04T07:31:11.080Z",
+    "updatedAt": "2026-09-04T07:31:11.080Z"
+  },
+  {
+    "scopeId": "org_1788507480902_bpdpkl",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T07:38:00.964Z"
+    },
+    "createdAt": "2026-09-04T07:38:00.964Z",
+    "updatedAt": "2026-09-04T07:38:00.964Z"
+  },
+  {
+    "scopeId": "org_1788532426376_dvt9m7",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T14:33:46.435Z"
+    },
+    "createdAt": "2026-09-04T14:33:46.435Z",
+    "updatedAt": "2026-09-04T14:33:46.435Z"
+  },
+  {
+    "scopeId": "org_1788532991420_s0fs7t",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T14:43:11.523Z"
+    },
+    "createdAt": "2026-09-04T14:43:11.523Z",
+    "updatedAt": "2026-09-04T14:43:11.523Z"
+  },
+  {
+    "scopeId": "org_1788533890811_buovk2",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T14:58:10.866Z"
+    },
+    "createdAt": "2026-09-04T14:58:10.866Z",
+    "updatedAt": "2026-09-04T14:58:10.866Z"
+  },
+  {
+    "scopeId": "org_1788534115962_ur524k",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T15:01:56.018Z"
+    },
+    "createdAt": "2026-09-04T15:01:56.018Z",
+    "updatedAt": "2026-09-04T15:01:56.018Z"
+  },
+  {
+    "scopeId": "org_1788535794792_lewl7i",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T15:29:54.866Z"
+    },
+    "createdAt": "2026-09-04T15:29:54.866Z",
+    "updatedAt": "2026-09-04T15:29:54.866Z"
+  },
+  {
+    "scopeId": "org_1788538738186_hkhdry",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T16:18:58.274Z"
+    },
+    "createdAt": "2026-09-04T16:18:58.274Z",
+    "updatedAt": "2026-09-04T16:18:58.274Z"
+  },
+  {
+    "scopeId": "org_1788541770511_0dub7g",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T17:09:30.686Z"
+    },
+    "createdAt": "2026-09-04T17:09:30.686Z",
+    "updatedAt": "2026-09-04T17:09:30.686Z"
+  },
+  {
+    "scopeId": "org_1788543980887_rec6h4",
+    "policy": {
+      "allowedProviders": [
+        "anthropic",
+        "groq",
+        "openai"
+      ],
+      "allowedModels": [
+        "claude-3-5-sonnet-20241022",
+        "claude-3-opus-20240229",
+        "claude-3-haiku-20240307",
+        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "maxTokensPerRequest": 4000,
+      "maxDailyRequests": 500,
+      "maxDailySpend": 50,
+      "fallbackAllowed": true,
+      "productionAIApprovalRequired": false,
+      "updatedAt": "2026-09-04T17:46:21.070Z"
+    },
+    "createdAt": "2026-09-04T17:46:21.070Z",
+    "updatedAt": "2026-09-04T17:46:21.070Z"
+  }
+]

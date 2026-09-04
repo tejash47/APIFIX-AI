@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "run_analysis_1788544047659_dhw666",
+    "projectId": "proj_demo_reg_1788544045357",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T17:47:27.664Z",
+    "updatedAt": "2026-09-04T17:47:33.511Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T17:47:27.660Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788544045357",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T17:47:27.671Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 11,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T17:47:33.511Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 5840,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788541842112_vip4p9",
+    "projectId": "proj_demo_reg_1788541835700",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T17:10:42.148Z",
+    "updatedAt": "2026-09-04T17:10:51.131Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T17:10:42.115Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788541835700",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T17:10:42.163Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 48,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T17:10:51.131Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 8968,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788538793425_bzx197",
+    "projectId": "proj_demo_reg_1788538787744",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T16:19:53.452Z",
+    "updatedAt": "2026-09-04T16:19:57.506Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T16:19:53.432Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788538787744",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T16:19:53.459Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 27,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T16:19:57.506Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4047,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788535851250_5ypiie",
+    "projectId": "proj_demo_reg_1788535849277",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T15:30:51.254Z",
+    "updatedAt": "2026-09-04T15:30:55.733Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T15:30:51.251Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788535849277",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T15:30:51.256Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 5,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T15:30:55.733Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4477,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788532413978_l1yr23",
+    "projectId": "proj_demo_reg_1788532412739",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T14:33:33.983Z",
+    "updatedAt": "2026-09-04T14:33:36.459Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T14:33:33.979Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788532412739",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T14:33:33.984Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 5,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T14:33:36.459Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2475,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788507296103_t9mkje",
+    "projectId": "proj_demo_reg_1788507290440",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T07:34:56.147Z",
+    "updatedAt": "2026-09-04T07:35:00.742Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T07:34:56.115Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788507290440",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T07:34:56.151Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 36,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T07:35:00.742Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4591,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788507111122_h9wh22",
+    "projectId": "proj_demo_reg_1788507094479",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T07:31:51.150Z",
+    "updatedAt": "2026-09-04T07:31:55.284Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T07:31:51.127Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788507094479",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T07:31:51.159Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 32,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T07:31:55.284Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4125,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788504194139_eezal9",
+    "projectId": "proj_demo_reg_1788504191690",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T06:43:14.142Z",
+    "updatedAt": "2026-09-04T06:43:17.432Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T06:43:14.140Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788504191690",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T06:43:14.143Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 3,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T06:43:17.432Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3289,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788504036568_p5vdry",
+    "projectId": "proj_demo_reg_1788504032727",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T06:40:36.580Z",
+    "updatedAt": "2026-09-04T06:40:40.187Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T06:40:36.570Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788504032727",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T06:40:36.582Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 12,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T06:40:40.187Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3605,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1788499388456_u2lkuw",
+    "projectId": "proj_demo_reg_1788499387329",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-09-04T05:23:08.467Z",
+    "updatedAt": "2026-09-04T05:23:11.538Z",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T05:23:08.457Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1788499387329",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T05:23:08.470Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 13,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-09-04T05:23:11.538Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3068,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787489598902_2a9qsk",
+    "projectId": "proj_demo_reg_1787489596780",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-23T12:53:18.930Z",
+    "updatedAt": "2026-08-23T12:53:22.635Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-23T12:53:18.903Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787489596780",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-23T12:53:18.935Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 32,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-23T12:53:22.635Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3700,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787489416610_fl6bsn",
+    "projectId": "proj_demo_reg_1787489414414",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-23T12:50:16.621Z",
+    "updatedAt": "2026-08-23T12:50:20.042Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-23T12:50:16.611Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787489414414",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-23T12:50:16.634Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 23,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-23T12:50:20.042Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3408,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787421959279_ts5tcl",
+    "projectId": "proj_demo_reg_1787421958133",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T18:05:59.321Z",
+    "updatedAt": "2026-08-22T18:06:02.631Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T18:05:59.280Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787421958133",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T18:05:59.328Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 48,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T18:06:02.631Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3303,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787421807329_4un21d",
+    "projectId": "proj_demo_reg_1787421806211",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T18:03:27.332Z",
+    "updatedAt": "2026-08-22T18:03:29.972Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T18:03:27.330Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787421806211",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T18:03:27.334Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T18:03:29.972Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2638,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787421515973_hru4bl",
+    "projectId": "proj_demo_reg_1787421514825",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:58:35.976Z",
+    "updatedAt": "2026-08-22T17:58:38.616Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:58:35.973Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787421514825",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:58:35.977Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:58:38.616Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2639,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787421486547_58t9w1",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:58:06.547Z",
+    "updatedAt": "2026-08-22T17:58:07.385Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:58:07.385Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787420511887_ia4739",
+    "projectId": "proj_demo_reg_1787420510019",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:41:51.900Z",
+    "updatedAt": "2026-08-22T17:41:54.625Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:41:51.892Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787420510019",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:41:51.901Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 9,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:41:54.625Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2724,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420482843_81456n",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:41:22.843Z",
+    "updatedAt": "2026-08-22T17:41:23.670Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:41:23.670Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420466027_9wccd9",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:41:06.027Z",
+    "updatedAt": "2026-08-22T17:41:06.780Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:41:06.780Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420448856_g24sfh",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:40:48.856Z",
+    "updatedAt": "2026-08-22T17:40:49.657Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:40:49.657Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420432881_zsae4n",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:40:32.881Z",
+    "updatedAt": "2026-08-22T17:40:33.628Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:40:33.628Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420414857_qrog5r",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:40:14.857Z",
+    "updatedAt": "2026-08-22T17:40:15.648Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:40:15.648Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420370739_gsb3am",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:39:30.739Z",
+    "updatedAt": "2026-08-22T17:39:31.442Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:39:31.442Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420355091_wkwoz9",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:39:15.091Z",
+    "updatedAt": "2026-08-22T17:39:15.772Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:39:15.772Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420339381_ipg8i7",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:38:59.381Z",
+    "updatedAt": "2026-08-22T17:38:59.585Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:38:59.585Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420305877_x274yg",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "PATCHING",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:38:25.877Z",
+    "updatedAt": "2026-08-22T17:38:26.057Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:38:26.057Z",
+        "stage": "PATCHING",
+        "event": "Synthesizing Code Patch",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target: src/controllers/authController.js:14",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_1787420276106_7atsgr",
+    "userId": "anonymous",
+    "userEmail": "dev@apifix.ai",
+    "status": "initialized",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:37:56.106Z"
+  },
+  {
+    "id": "run_analysis_1787419283531_7nao1r",
+    "projectId": "proj_demo_reg_1787419282414",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:21:23.535Z",
+    "updatedAt": "2026-08-22T17:21:26.430Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:21:23.532Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787419282414",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:21:23.536Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:21:26.430Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2894,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787419217379_uziwnp",
+    "projectId": "proj_demo_reg_1787419216309",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:20:17.384Z",
+    "updatedAt": "2026-08-22T17:20:20.596Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:20:17.379Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787419216309",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:20:17.391Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 12,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:20:20.596Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3205,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787418439725_y9lsdk",
+    "projectId": "proj_demo_reg_1787418437721",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T17:07:19.744Z",
+    "updatedAt": "2026-08-22T17:07:22.686Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T17:07:19.726Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787418437721",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:07:19.747Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 21,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T17:07:22.686Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2939,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787417943124_lwvhdi",
+    "projectId": "proj_demo_reg_1787417942026",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T16:59:03.159Z",
+    "updatedAt": "2026-08-22T16:59:05.941Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T16:59:03.125Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787417942026",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T16:59:03.167Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 42,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T16:59:05.941Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2774,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787416891278_nzt6cj",
+    "projectId": "proj_demo_reg_1787416890178",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T16:41:31.302Z",
+    "updatedAt": "2026-08-22T16:41:33.877Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T16:41:31.279Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787416890178",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T16:41:31.305Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 26,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T16:41:33.877Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2572,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787410957258_r99usy",
+    "projectId": "proj_demo_reg_1787410948670",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T15:02:37.269Z",
+    "updatedAt": "2026-08-22T15:02:41.201Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T15:02:37.261Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787410948670",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T15:02:37.272Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 11,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T15:02:41.201Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3929,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787410094234_cfwt73",
+    "projectId": "proj_demo_reg_1787410085656",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:48:14.273Z",
+    "updatedAt": "2026-08-22T14:48:19.007Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:48:14.240Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787410085656",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:48:14.281Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 41,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:48:19.007Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4726,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787410021293_0k4qc6",
+    "projectId": "proj_demo_reg_1787410010792",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:47:01.342Z",
+    "updatedAt": "2026-08-22T14:47:06.122Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:47:01.295Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787410010792",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:47:01.357Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 62,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:47:06.122Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4765,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787409893343_isimy8",
+    "projectId": "proj_demo_reg_1787409882092",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:44:53.369Z",
+    "updatedAt": "2026-08-22T14:44:58.506Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:44:53.345Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787409882092",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:44:53.386Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 41,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:44:58.506Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 5120,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787409289909_j607vy",
+    "projectId": "proj_demo_reg_1787409288754",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:34:49.917Z",
+    "updatedAt": "2026-08-22T14:34:52.643Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:34:49.909Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787409288754",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:34:49.918Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 9,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:34:52.643Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2725,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787408383621_oetz9d",
+    "projectId": "proj_demo_reg_1787408382471",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:19:43.624Z",
+    "updatedAt": "2026-08-22T14:19:46.532Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:19:43.622Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787408382471",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:19:43.626Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:19:46.532Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2906,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787407284643_gzuq1n",
+    "projectId": "proj_demo_reg_1787407283567",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:01:24.648Z",
+    "updatedAt": "2026-08-22T14:01:27.243Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:01:24.645Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787407283567",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:01:24.649Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:01:27.243Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 2594,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787407203829_a3pspd",
+    "projectId": "proj_demo_reg_1787407199162",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T14:00:03.845Z",
+    "updatedAt": "2026-08-22T14:00:08.307Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T14:00:03.833Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787407199162",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:00:03.847Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 14,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T14:00:08.307Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 4460,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1787407052059_rlp9ps",
+    "projectId": "proj_demo_reg_1787407050933",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "DETECTED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-22T13:57:32.087Z",
+    "updatedAt": "2026-08-22T13:57:32.093Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-22T13:57:32.060Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1787407050933",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-22T13:57:32.093Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 33,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1786985345451_griryw",
+    "projectId": "proj_demo_reg_1786985336150",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-17T16:49:05.475Z",
+    "updatedAt": "2026-08-17T16:49:11.318Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-17T16:49:05.452Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1786985336150",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-17T16:49:05.484Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 32,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-17T16:49:11.318Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 5834,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1786980178623_ptn86u",
+    "projectId": "proj_demo_reg_1786980176571",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-17T15:22:58.626Z",
+    "updatedAt": "2026-08-17T15:23:06.092Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-17T15:22:58.624Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1786980176571",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-17T15:22:58.627Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 3,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-17T15:23:06.092Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 7465,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1786907719313_zfl36v",
+    "projectId": "proj_demo_reg_1786907718215",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "DETECTED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-16T19:15:19.329Z",
+    "updatedAt": "2026-08-16T19:15:19.330Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-16T19:15:19.314Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1786907718215",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-16T19:15:19.330Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 16,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1786906301550_5gf3pt",
+    "projectId": "proj_demo_reg_1786906298110",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "COMPLETED",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-16T18:51:41.554Z",
+    "updatedAt": "2026-08-16T18:51:45.540Z",
+    "timeline": [
+      {
+        "timestamp": "2026-08-16T18:51:41.551Z",
+        "stage": "QUEUED",
+        "event": "Analysis Run Queued",
+        "durationMs": 0,
+        "status": "SUCCESS",
+        "details": "Target project: proj_demo_reg_1786906298110",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-16T18:51:41.555Z",
+        "stage": "DETECTED",
+        "event": "Workspace Detected and Prepared",
+        "durationMs": 4,
+        "status": "SUCCESS",
+        "details": "apifix-demo-api (Node.js / Express)",
+        "error": null
+      },
+      {
+        "timestamp": "2026-08-16T18:51:45.540Z",
+        "stage": "COMPLETED",
+        "event": "API Discovery & Analysis Completed",
+        "durationMs": 3985,
+        "status": "SUCCESS",
+        "details": "Probed 4 endpoints (1 failures reproduced).",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "run_analysis_1786879594776_y4mwpi",
+    "projectId": "proj_demo_reg_1786879588725",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-16T11:26:34.780Z"
+  },
+  {
+    "id": "run_analysis_1786803883928_wdl454",
+    "projectId": "proj_demo_reg_1786803882912",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T14:24:43.928Z"
+  },
+  {
+    "id": "run_analysis_1786803626526_8r37eo",
+    "projectId": "proj_demo_reg_1786803625501",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T14:20:26.528Z"
+  },
+  {
+    "id": "run_analysis_1786803609379_snnsta",
+    "projectId": "proj_demo_reg_1786803608299",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T14:20:09.380Z"
+  },
+  {
+    "id": "run_analysis_1786803336562_a29hmw",
+    "projectId": "proj_demo_reg_1786803335461",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T14:15:36.563Z"
+  },
+  {
+    "id": "run_analysis_1786803299721_f8pd9p",
+    "projectId": "proj_demo_reg_1786803298618",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T14:14:59.722Z"
+  },
+  {
+    "id": "run_analysis_1786800195445_pk1uoj",
+    "projectId": "proj_demo_reg_1786800194467",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T13:23:15.448Z"
+  },
+  {
+    "id": "run_analysis_1786799505891_el127q",
+    "projectId": "proj_demo_reg_1786799504861",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T13:11:45.892Z"
+  },
+  {
+    "id": "run_analysis_1786793099537_7v2nhq",
+    "projectId": "proj_demo_reg_1786793098236",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T11:24:59.538Z"
+  },
+  {
+    "id": "run_analysis_1786789356192_v7tnyh",
+    "projectId": "proj_demo_reg_1786789354197",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T10:22:36.193Z"
+  },
+  {
+    "id": "run_analysis_1786787000239_sdjsob",
+    "projectId": "proj_demo_reg_1786786993423",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T09:43:20.257Z"
+  },
+  {
+    "id": "run_analysis_1786786661093_bcbcba",
+    "projectId": "proj_1786786656482_5bjx2x",
+    "userId": "usr_demo_01",
+    "userEmail": "dev@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T09:37:41.095Z"
+  },
+  {
+    "id": "run_analysis_1786786583634_4zslh3",
+    "projectId": "proj_1786786572388_fqk61r",
+    "userId": "usr_demo_01",
+    "userEmail": "dev@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T09:36:23.640Z"
+  },
+  {
+    "id": "run_analysis_1786785651046_pmqi7h",
+    "projectId": "proj_demo_reg_1786785649328",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T09:20:51.047Z"
+  },
+  {
+    "id": "run_analysis_1786784701643_vs96fk",
+    "projectId": "proj_demo_reg_1786784700008",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T09:05:01.644Z"
+  },
+  {
+    "id": "run_analysis_1786783731605_cje8gf",
+    "projectId": "proj_demo_reg_1786783727693",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T08:48:51.614Z"
+  },
+  {
+    "id": "run_analysis_1786782362405_zq68wc",
+    "projectId": "proj_demo_reg_1786782361356",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T08:26:02.445Z"
+  },
+  {
+    "id": "run_analysis_1786782322704_0v20hn",
+    "projectId": "proj_demo_reg_1786782321681",
+    "userId": "usr_admin_01",
+    "userEmail": "admin@apifix.ai",
+    "status": "in_progress",
+    "command": null,
+    "port": null,
+    "framework": null,
+    "runtime": "Node.js",
+    "selectedProjectPath": ".",
+    "createdAt": "2026-08-15T08:25:22.704Z"
+  }
+]

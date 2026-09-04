@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "appr_1788544018741_e1kjf8",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T17:46:58.752Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:46:58.741Z",
+    "createdAt": "2026-09-04T17:46:58.741Z",
+    "updatedAt": "2026-09-04T17:46:58.752Z"
+  },
+  {
+    "id": "appr_1788544018299_n4nl5a",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T17:46:58.357Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:46:58.299Z",
+    "createdAt": "2026-09-04T17:46:58.299Z",
+    "updatedAt": "2026-09-04T17:46:58.357Z"
+  },
+  {
+    "id": "appr_1788543981128_prb1t6",
+    "orgId": "org_1788543980887_rec6h4",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T17:46:21.138Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:46:21.128Z",
+    "createdAt": "2026-09-04T17:46:21.128Z",
+    "updatedAt": "2026-09-04T17:46:21.138Z"
+  },
+  {
+    "id": "appr_1788543981100_hu406f",
+    "orgId": "org_1788543980887_rec6h4",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T17:46:21.113Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T17:46:21.121Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:46:21.100Z",
+    "createdAt": "2026-09-04T17:46:21.100Z",
+    "updatedAt": "2026-09-04T17:46:21.121Z"
+  },
+  {
+    "id": "appr_1788541809111_rbyzqh",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T17:10:09.122Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:10:09.111Z",
+    "createdAt": "2026-09-04T17:10:09.111Z",
+    "updatedAt": "2026-09-04T17:10:09.122Z"
+  },
+  {
+    "id": "appr_1788541808614_0ke61t",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T17:10:08.705Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:10:08.614Z",
+    "createdAt": "2026-09-04T17:10:08.614Z",
+    "updatedAt": "2026-09-04T17:10:08.705Z"
+  },
+  {
+    "id": "appr_1788541770743_cuajub",
+    "orgId": "org_1788541770511_0dub7g",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T17:09:30.753Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:09:30.743Z",
+    "createdAt": "2026-09-04T17:09:30.743Z",
+    "updatedAt": "2026-09-04T17:09:30.753Z"
+  },
+  {
+    "id": "appr_1788541770718_5et6p4",
+    "orgId": "org_1788541770511_0dub7g",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T17:09:30.730Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T17:09:30.737Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T17:09:30.718Z",
+    "createdAt": "2026-09-04T17:09:30.718Z",
+    "updatedAt": "2026-09-04T17:09:30.737Z"
+  },
+  {
+    "id": "appr_1788538765533_xb9842",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:19:25.537Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:19:25.533Z",
+    "createdAt": "2026-09-04T16:19:25.533Z",
+    "updatedAt": "2026-09-04T16:19:25.537Z"
+  },
+  {
+    "id": "appr_1788538765254_ykpn7s",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:19:25.265Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:19:25.254Z",
+    "createdAt": "2026-09-04T16:19:25.254Z",
+    "updatedAt": "2026-09-04T16:19:25.265Z"
+  },
+  {
+    "id": "appr_1788538738305_7l5afb",
+    "orgId": "org_1788538738186_hkhdry",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T16:18:58.309Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:58.305Z",
+    "createdAt": "2026-09-04T16:18:58.305Z",
+    "updatedAt": "2026-09-04T16:18:58.309Z"
+  },
+  {
+    "id": "appr_1788538738290_6n6r94",
+    "orgId": "org_1788538738186_hkhdry",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T16:18:58.296Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T16:18:58.302Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:58.290Z",
+    "createdAt": "2026-09-04T16:18:58.290Z",
+    "updatedAt": "2026-09-04T16:18:58.302Z"
+  },
+  {
+    "id": "appr_1788538704646_j6mlg1",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:18:24.650Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:24.646Z",
+    "createdAt": "2026-09-04T16:18:24.646Z",
+    "updatedAt": "2026-09-04T16:18:24.650Z"
+  },
+  {
+    "id": "appr_1788538704593_hzsr6d",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:18:24.601Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:24.593Z",
+    "createdAt": "2026-09-04T16:18:24.593Z",
+    "updatedAt": "2026-09-04T16:18:24.601Z"
+  },
+  {
+    "id": "appr_1788538690352_87b73y",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:18:10.357Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:10.352Z",
+    "createdAt": "2026-09-04T16:18:10.352Z",
+    "updatedAt": "2026-09-04T16:18:10.357Z"
+  },
+  {
+    "id": "appr_1788538690309_em9dg4",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:18:10.316Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:18:10.309Z",
+    "createdAt": "2026-09-04T16:18:10.309Z",
+    "updatedAt": "2026-09-04T16:18:10.316Z"
+  },
+  {
+    "id": "appr_1788538630458_yxycqc",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_phase25_enterprise",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Approve Auth Fix",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_phase25_customer",
+    "requesterEmail": "cto@enterprise-saas.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_reviewer",
+        "reviewerEmail": "admin@enterprise.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:17:10.462Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:17:10.458Z",
+    "createdAt": "2026-09-04T16:17:10.458Z",
+    "updatedAt": "2026-09-04T16:17:10.462Z"
+  },
+  {
+    "id": "appr_1788538630417_n8uoff",
+    "orgId": "org_enterprise_primary",
+    "workspaceId": "ws_rbac_test",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Fix auth crash in production",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_dev_123",
+    "requesterEmail": "dev@company.com",
+    "requiredApprovals": 1,
+    "currentApprovals": 1,
+    "approvals": [
+      {
+        "reviewerId": "usr_admin_456",
+        "reviewerEmail": "admin@company.com",
+        "role": "ADMIN",
+        "comment": "",
+        "approvedAt": "2026-09-04T16:17:10.429Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T16:17:10.417Z",
+    "createdAt": "2026-09-04T16:17:10.417Z",
+    "updatedAt": "2026-09-04T16:17:10.429Z"
+  },
+  {
+    "id": "appr_1788535794892_69ujpm",
+    "orgId": "org_1788535794792_lewl7i",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T15:29:54.896Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:29:54.892Z",
+    "createdAt": "2026-09-04T15:29:54.892Z",
+    "updatedAt": "2026-09-04T15:29:54.896Z"
+  },
+  {
+    "id": "appr_1788535794880_70jj87",
+    "orgId": "org_1788535794792_lewl7i",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T15:29:54.886Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T15:29:54.889Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:29:54.880Z",
+    "createdAt": "2026-09-04T15:29:54.880Z",
+    "updatedAt": "2026-09-04T15:29:54.889Z"
+  },
+  {
+    "id": "appr_1788534244476_ehuvc4",
+    "orgId": "org_1788534244353_fhjjb9",
+    "workspaceId": "ws_apex_1788534244358",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:04:04.476Z",
+    "createdAt": "2026-09-04T15:04:04.476Z",
+    "updatedAt": "2026-09-04T15:04:04.476Z"
+  },
+  {
+    "id": "appr_1788534244380_fhjbyk",
+    "orgId": "org_1788534244353_fhjjb9",
+    "workspaceId": "ws_apex_1788534244358",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T15:04:04.383Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T15:04:04.386Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:04:04.380Z",
+    "createdAt": "2026-09-04T15:04:04.380Z",
+    "updatedAt": "2026-09-04T15:04:04.386Z"
+  },
+  {
+    "id": "appr_1788534116038_lami2k",
+    "orgId": "org_1788534115962_ur524k",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T15:01:56.041Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:01:56.038Z",
+    "createdAt": "2026-09-04T15:01:56.038Z",
+    "updatedAt": "2026-09-04T15:01:56.041Z"
+  },
+  {
+    "id": "appr_1788534116030_jckhmd",
+    "orgId": "org_1788534115962_ur524k",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T15:01:56.035Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T15:01:56.037Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T15:01:56.030Z",
+    "createdAt": "2026-09-04T15:01:56.030Z",
+    "updatedAt": "2026-09-04T15:01:56.037Z"
+  },
+  {
+    "id": "appr_1788533890934_c56n18",
+    "orgId": "org_1788533890809_ssqslf",
+    "workspaceId": "ws_apex_1788533890815",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:58:10.934Z",
+    "createdAt": "2026-09-04T14:58:10.934Z",
+    "updatedAt": "2026-09-04T14:58:10.934Z"
+  },
+  {
+    "id": "appr_1788533890886_cvyuw6",
+    "orgId": "org_1788533890811_buovk2",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T14:58:10.888Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:58:10.886Z",
+    "createdAt": "2026-09-04T14:58:10.886Z",
+    "updatedAt": "2026-09-04T14:58:10.888Z"
+  },
+  {
+    "id": "appr_1788533890878_6dv60a",
+    "orgId": "org_1788533890811_buovk2",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T14:58:10.883Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T14:58:10.885Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:58:10.878Z",
+    "createdAt": "2026-09-04T14:58:10.878Z",
+    "updatedAt": "2026-09-04T14:58:10.885Z"
+  },
+  {
+    "id": "appr_1788533890834_8hgcxs",
+    "orgId": "org_1788533890809_ssqslf",
+    "workspaceId": "ws_apex_1788533890815",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T14:58:10.836Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T14:58:10.838Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:58:10.834Z",
+    "createdAt": "2026-09-04T14:58:10.834Z",
+    "updatedAt": "2026-09-04T14:58:10.838Z"
+  },
+  {
+    "id": "appr_1788532991729_27qxqz",
+    "orgId": "org_1788532991429_97itb5",
+    "workspaceId": "ws_apex_1788532991434",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:43:11.729Z",
+    "createdAt": "2026-09-04T14:43:11.729Z",
+    "updatedAt": "2026-09-04T14:43:11.729Z"
+  },
+  {
+    "id": "appr_1788532991559_93auyw",
+    "orgId": "org_1788532991420_s0fs7t",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T14:43:11.566Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:43:11.559Z",
+    "createdAt": "2026-09-04T14:43:11.559Z",
+    "updatedAt": "2026-09-04T14:43:11.566Z"
+  },
+  {
+    "id": "appr_1788532991543_wbaw86",
+    "orgId": "org_1788532991420_s0fs7t",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T14:43:11.555Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T14:43:11.557Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:43:11.543Z",
+    "createdAt": "2026-09-04T14:43:11.543Z",
+    "updatedAt": "2026-09-04T14:43:11.557Z"
+  },
+  {
+    "id": "appr_1788532991471_954n9o",
+    "orgId": "org_1788532991429_97itb5",
+    "workspaceId": "ws_apex_1788532991434",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T14:43:11.474Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T14:43:11.475Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:43:11.471Z",
+    "createdAt": "2026-09-04T14:43:11.471Z",
+    "updatedAt": "2026-09-04T14:43:11.475Z"
+  },
+  {
+    "id": "appr_1788532426531_pcxa2u",
+    "orgId": "org_1788532426374_78877u",
+    "workspaceId": "ws_apex_1788532426380",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:33:46.531Z",
+    "createdAt": "2026-09-04T14:33:46.531Z",
+    "updatedAt": "2026-09-04T14:33:46.531Z"
+  },
+  {
+    "id": "appr_1788532426457_vidlaf",
+    "orgId": "org_1788532426376_dvt9m7",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T14:33:46.460Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:33:46.457Z",
+    "createdAt": "2026-09-04T14:33:46.457Z",
+    "updatedAt": "2026-09-04T14:33:46.460Z"
+  },
+  {
+    "id": "appr_1788532426449_bwvvko",
+    "orgId": "org_1788532426376_dvt9m7",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T14:33:46.454Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T14:33:46.456Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:33:46.449Z",
+    "createdAt": "2026-09-04T14:33:46.449Z",
+    "updatedAt": "2026-09-04T14:33:46.456Z"
+  },
+  {
+    "id": "appr_1788532426403_w56c0k",
+    "orgId": "org_1788532426374_78877u",
+    "workspaceId": "ws_apex_1788532426380",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T14:33:46.407Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T14:33:46.409Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T14:33:46.403Z",
+    "createdAt": "2026-09-04T14:33:46.403Z",
+    "updatedAt": "2026-09-04T14:33:46.409Z"
+  },
+  {
+    "id": "appr_1788507480989_17pmk7",
+    "orgId": "org_1788507480902_bpdpkl",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T07:38:00.991Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T07:38:00.989Z",
+    "createdAt": "2026-09-04T07:38:00.989Z",
+    "updatedAt": "2026-09-04T07:38:00.991Z"
+  },
+  {
+    "id": "appr_1788507480980_tybcf1",
+    "orgId": "org_1788507480902_bpdpkl",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T07:38:00.985Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T07:38:00.987Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T07:38:00.980Z",
+    "createdAt": "2026-09-04T07:38:00.980Z",
+    "updatedAt": "2026-09-04T07:38:00.987Z"
+  },
+  {
+    "id": "appr_1788507071106_cwagpd",
+    "orgId": "org_1788507071021_yv5zu9",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T07:31:11.111Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T07:31:11.106Z",
+    "createdAt": "2026-09-04T07:31:11.106Z",
+    "updatedAt": "2026-09-04T07:31:11.111Z"
+  },
+  {
+    "id": "appr_1788507071096_wdk6uv",
+    "orgId": "org_1788507071021_yv5zu9",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T07:31:11.103Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T07:31:11.105Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T07:31:11.096Z",
+    "createdAt": "2026-09-04T07:31:11.096Z",
+    "updatedAt": "2026-09-04T07:31:11.105Z"
+  },
+  {
+    "id": "appr_1788504153600_61pxuv",
+    "orgId": "org_1788504153335_xldyh3",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T06:42:33.610Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T06:42:33.600Z",
+    "createdAt": "2026-09-04T06:42:33.600Z",
+    "updatedAt": "2026-09-04T06:42:33.610Z"
+  },
+  {
+    "id": "appr_1788504153568_56f7k5",
+    "orgId": "org_1788504153335_xldyh3",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T06:42:33.580Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T06:42:33.590Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T06:42:33.568Z",
+    "createdAt": "2026-09-04T06:42:33.568Z",
+    "updatedAt": "2026-09-04T06:42:33.590Z"
+  },
+  {
+    "id": "appr_1788503995302_5ng06a",
+    "orgId": "org_1788503995063_2sjqfy",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T06:39:55.312Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T06:39:55.302Z",
+    "createdAt": "2026-09-04T06:39:55.302Z",
+    "updatedAt": "2026-09-04T06:39:55.312Z"
+  },
+  {
+    "id": "appr_1788503995274_sstw9s",
+    "orgId": "org_1788503995063_2sjqfy",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T06:39:55.286Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T06:39:55.295Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T06:39:55.274Z",
+    "createdAt": "2026-09-04T06:39:55.274Z",
+    "updatedAt": "2026-09-04T06:39:55.295Z"
+  },
+  {
+    "id": "appr_1788499414394_bmntji",
+    "orgId": "org_1788499414197_86simn",
+    "workspaceId": "ws_apex_1788499414212",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:23:34.394Z",
+    "createdAt": "2026-09-04T05:23:34.394Z",
+    "updatedAt": "2026-09-04T05:23:34.394Z"
+  },
+  {
+    "id": "appr_1788499414276_rdp8r9",
+    "orgId": "org_1788499414197_86simn",
+    "workspaceId": "ws_apex_1788499414212",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T05:23:34.286Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T05:23:34.295Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:23:34.276Z",
+    "createdAt": "2026-09-04T05:23:34.276Z",
+    "updatedAt": "2026-09-04T05:23:34.295Z"
+  },
+  {
+    "id": "appr_1788499358919_1bbypa",
+    "orgId": "org_1788499358706_jz5a2f",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T05:22:38.928Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:22:38.919Z",
+    "createdAt": "2026-09-04T05:22:38.919Z",
+    "updatedAt": "2026-09-04T05:22:38.928Z"
+  },
+  {
+    "id": "appr_1788499358890_i6bwbl",
+    "orgId": "org_1788499358706_jz5a2f",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T05:22:38.901Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T05:22:38.911Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:22:38.890Z",
+    "createdAt": "2026-09-04T05:22:38.890Z",
+    "updatedAt": "2026-09-04T05:22:38.911Z"
+  },
+  {
+    "id": "appr_1788498865083_pem7sd",
+    "orgId": "org_1788498857792_c2gf84",
+    "workspaceId": "ws_apex_1788498857845",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:14:25.083Z",
+    "createdAt": "2026-09-04T05:14:25.083Z",
+    "updatedAt": "2026-09-04T05:14:25.083Z"
+  },
+  {
+    "id": "appr_1788498857918_9xgntc",
+    "orgId": "org_1788498857792_c2gf84",
+    "workspaceId": "ws_apex_1788498857845",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T05:14:17.929Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T05:14:17.943Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:14:17.918Z",
+    "createdAt": "2026-09-04T05:14:17.918Z",
+    "updatedAt": "2026-09-04T05:14:17.943Z"
+  },
+  {
+    "id": "appr_1788498829887_d5s6is",
+    "orgId": "org_1788498822575_8gq6du",
+    "workspaceId": "ws_apex_1788498822610",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_admin",
+    "requesterEmail": "admin@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:13:49.887Z",
+    "createdAt": "2026-09-04T05:13:49.887Z",
+    "updatedAt": "2026-09-04T05:13:49.887Z"
+  },
+  {
+    "id": "appr_1788498822675_5rytbw",
+    "orgId": "org_1788498822575_8gq6du",
+    "workspaceId": "ws_apex_1788498822610",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T05:13:42.685Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T05:13:42.697Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:13:42.675Z",
+    "createdAt": "2026-09-04T05:13:42.675Z",
+    "updatedAt": "2026-09-04T05:13:42.697Z"
+  },
+  {
+    "id": "appr_1788498809082_dydaz0",
+    "orgId": "org_1788498801773_ubivfq",
+    "workspaceId": "ws_apex_1788498801828",
+    "workflowType": "REPAIR_EXECUTION",
+    "title": "Attacker Self-Approval Probe",
+    "description": "",
+    "severity": "MEDIUM",
+    "environment": "development",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [],
+    "status": "PENDING",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:13:29.082Z",
+    "createdAt": "2026-09-04T05:13:29.082Z",
+    "updatedAt": "2026-09-04T05:13:29.082Z"
+  },
+  {
+    "id": "appr_1788498801900_559rs2",
+    "orgId": "org_1788498801773_ubivfq",
+    "workspaceId": "ws_apex_1788498801828",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Emergency patch for Flight Control Telemetry Outage",
+    "description": "Patch generated by APIFIX agent for CVE-2026-8812",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_e2e_dev",
+    "requesterEmail": "dev@apex-defense.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_e2e_admin",
+        "reviewerEmail": "admin@apex-defense.org",
+        "role": "ADMIN",
+        "comment": "Reviewed diff, approved for stage 2 security verification.",
+        "approvedAt": "2026-09-04T05:13:21.910Z"
+      },
+      {
+        "reviewerId": "usr_e2e_sec",
+        "reviewerEmail": "sec@apex-defense.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan complete. Zero vulnerabilities found.",
+        "approvedAt": "2026-09-04T05:13:21.920Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:13:21.900Z",
+    "createdAt": "2026-09-04T05:13:21.900Z",
+    "updatedAt": "2026-09-04T05:13:21.920Z"
+  },
+  {
+    "id": "appr_1788498741156_176xos",
+    "orgId": "org_1788498740864_oxd6fp",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T05:12:21.183Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:12:21.156Z",
+    "createdAt": "2026-09-04T05:12:21.156Z",
+    "updatedAt": "2026-09-04T05:12:21.183Z"
+  },
+  {
+    "id": "appr_1788498741119_3h4tsl",
+    "orgId": "org_1788498740864_oxd6fp",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T05:12:21.130Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T05:12:21.138Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:12:21.119Z",
+    "createdAt": "2026-09-04T05:12:21.119Z",
+    "updatedAt": "2026-09-04T05:12:21.138Z"
+  },
+  {
+    "id": "appr_1788498683797_46hsih",
+    "orgId": "org_1788498683537_2dlk8m",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T05:11:23.806Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:11:23.797Z",
+    "createdAt": "2026-09-04T05:11:23.797Z",
+    "updatedAt": "2026-09-04T05:11:23.806Z"
+  },
+  {
+    "id": "appr_1788498683769_r5p9ot",
+    "orgId": "org_1788498683537_2dlk8m",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T05:11:23.781Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T05:11:23.789Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:11:23.769Z",
+    "createdAt": "2026-09-04T05:11:23.769Z",
+    "updatedAt": "2026-09-04T05:11:23.789Z"
+  },
+  {
+    "id": "appr_1788498645883_hjx1qe",
+    "orgId": "org_1788498645667_ujbea3",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T05:10:45.892Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:10:45.883Z",
+    "createdAt": "2026-09-04T05:10:45.883Z",
+    "updatedAt": "2026-09-04T05:10:45.892Z"
+  },
+  {
+    "id": "appr_1788498645851_3dqj0h",
+    "orgId": "org_1788498645667_ujbea3",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T05:10:45.865Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T05:10:45.874Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:10:45.851Z",
+    "createdAt": "2026-09-04T05:10:45.851Z",
+    "updatedAt": "2026-09-04T05:10:45.874Z"
+  },
+  {
+    "id": "appr_1788498609143_ttj0h6",
+    "orgId": "org_1788498608897_pvgx4b",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "POLICY_OVERRIDE",
+    "title": "Bypass security scan for urgent patch",
+    "description": "",
+    "severity": "HIGH",
+    "environment": "development",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 1,
+    "currentApprovals": 0,
+    "approvals": [],
+    "rejections": [
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "reason": "Security scan cannot be bypassed for production services.",
+        "rejectedAt": "2026-09-04T05:10:09.152Z"
+      }
+    ],
+    "status": "REJECTED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:10:09.143Z",
+    "createdAt": "2026-09-04T05:10:09.143Z",
+    "updatedAt": "2026-09-04T05:10:09.152Z"
+  },
+  {
+    "id": "appr_1788498609116_e3xqi3",
+    "orgId": "org_1788498608897_pvgx4b",
+    "workspaceId": "ws_titan_core",
+    "workflowType": "PRODUCTION_REPAIR",
+    "title": "Deploy hotfix to payment-service production branch",
+    "description": "Patch for vulnerability CVE-2026-9981",
+    "severity": "CRITICAL",
+    "environment": "production",
+    "requesterId": "usr_org_dev_1",
+    "requesterEmail": "dev@enterprise-test.org",
+    "requiredApprovals": 2,
+    "currentApprovals": 2,
+    "approvals": [
+      {
+        "reviewerId": "usr_org_admin_1",
+        "reviewerEmail": "admin@enterprise-test.org",
+        "role": "ADMIN",
+        "comment": "Reviewed logic, sandbox test clean.",
+        "approvedAt": "2026-09-04T05:10:09.127Z"
+      },
+      {
+        "reviewerId": "usr_org_sec_1",
+        "reviewerEmail": "sec@enterprise-test.org",
+        "role": "SECURITY_ADMIN",
+        "comment": "Security scan verified clean.",
+        "approvedAt": "2026-09-04T05:10:09.135Z"
+      }
+    ],
+    "rejections": [],
+    "status": "APPROVED",
+    "metadata": {},
+    "expiresAt": "2026-09-06T05:10:09.116Z",
+    "createdAt": "2026-09-04T05:10:09.116Z",
+    "updatedAt": "2026-09-04T05:10:09.135Z"
+  }
+]
