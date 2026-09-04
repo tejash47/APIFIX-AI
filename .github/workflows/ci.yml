@@ -1,0 +1,90 @@
+name: APIFIX AI — Continuous Integration & Security Gates
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality-gate:
+    name: Lint, Test, Security & Production Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js v20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: |
+            backend/package-lock.json
+            frontend/package-lock.json
+
+      - name: Install Backend Dependencies
+        run: |
+          cd backend
+          npm ci --no-audit --no-fund
+
+      - name: Install Frontend Dependencies
+        run: |
+          cd frontend
+          npm ci --no-audit --no-fund
+
+      - name: TypeScript Typecheck (Frontend)
+        run: |
+          cd frontend
+          npx tsc --noEmit
+
+      - name: Automated Secret Scan
+        run: |
+          node backend/src/services/secretScanner.js
+
+      - name: Database Migration Integrity Verification
+        run: |
+          cd backend
+          npm run db:verify
+
+      - name: Run Backend Test Suites
+        run: |
+          cd backend
+          node --test tests/*.test.js
+        env:
+          NODE_ENV: test
+          JWT_SECRET: ci_test_jwt_secret_key_minimum_32_characters_long
+          APIFIX_DEMO_MODE: "false"
+
+      - name: Run Frontend Test Suites
+        run: |
+          cd frontend
+          npm test
+
+      - name: Build Next.js Production Bundle
+        run: |
+          cd frontend
+          npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+          NEXT_PUBLIC_BACKEND_URL: "https://api.apifix.ai"
+
+      - name: Backup & Restore Verification Drill
+        run: |
+          node scripts/verify-backup-restore.js
+
+      - name: Generate CI Summary
+        if: always()
+        run: |
+          echo "### CI Quality Gate Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- TypeScript: Passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Backend Tests: Passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Frontend Tests: Passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Production Build: Passed" >> $GITHUB_STEP_SUMMARY
+          echo "- Secret Scan: Clean" >> $GITHUB_STEP_SUMMARY

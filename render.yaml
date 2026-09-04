@@ -1,0 +1,93 @@
+# =========================================================================
+# APIFIX AI — Render Cloud Deployment Specification (render.yaml)
+# =========================================================================
+services:
+  # Backend API Web Service
+  - type: web
+    name: apifix-backend
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm ci --prefix backend --only=production
+    startCommand: npm start --prefix backend
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: APIFIX_DEMO_MODE
+        value: "false"
+      - key: APP_BASE_URL
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+
+  # Background Worker Service
+  - type: worker
+    name: apifix-worker
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm ci --prefix backend --only=production
+    startCommand: node backend/src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: IS_WORKER_PROCESS
+        value: "true"
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: apifix-backend
+          envVarKey: JWT_SECRET
+      - key: SUPABASE_URL
+        fromService:
+          type: web
+          name: apifix-backend
+          envVarKey: SUPABASE_URL
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        fromService:
+          type: web
+          name: apifix-backend
+          envVarKey: SUPABASE_SERVICE_ROLE_KEY
+
+  # Frontend Web Service
+  - type: web
+    name: apifix-frontend
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm ci --prefix frontend && npm run build --prefix frontend
+    startCommand: npm start --prefix frontend
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
+      - key: NEXT_PUBLIC_BACKEND_URL
+        fromService:
+          type: web
+          name: apifix-backend
+          property: host

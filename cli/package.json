@@ -1,0 +1,23 @@
+{
+  "name": "@apifix/cli",
+  "version": "1.0.0",
+  "description": "APIFIX AI Enterprise CLI — Command Line Interface for Autonomous API Repair & Continuous Verification",
+  "bin": {
+    "apifix": "./bin/apifix.js"
+  },
+  "main": "./bin/apifix.js",
+  "scripts": {
+    "start": "node ./bin/apifix.js"
+  },
+  "keywords": [
+    "apifix",
+    "api-repair",
+    "cli",
+    "automation",
+    "ci-cd",
+    "testing",
+    "verification"
+  ],
+  "author": "APIFIX AI Team",
+  "license": "Apache-2.0"
+}
