@@ -29,9 +29,8 @@ RUN mkdir -p /app/workspaces /app/storage /app/uploads /app/data && \
 COPY --from=deps --chown=apifix:nodejs /app/node_modules ./node_modules
 COPY --chown=apifix:nodejs package.json ./
 
-# Copy application source and seed data
+# Copy application source and migrations
 COPY --chown=apifix:nodejs src/ ./src/
-COPY --chown=apifix:nodejs data/ ./data/
 COPY --chown=apifix:nodejs migrations/ ./migrations/
 
 # Set production environment defaults (Secrets injected at runtime)
