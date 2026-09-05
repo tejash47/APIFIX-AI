@@ -103,7 +103,7 @@ function evaluateQualityGates({ workspacePath, patch, verification = null }) {
     const fullPath = path.join(workspacePath, patch.filePath);
     if (fs.existsSync(fullPath)) {
       const currentContent = fs.readFileSync(fullPath, 'utf8');
-      g6Pass = currentContent.includes(patch.oldText);
+      g6Pass = currentContent.replace(/\r\n/g, '\n').includes(patch.oldText.replace(/\r\n/g, '\n'));
     }
   }
   gateResults.push({
