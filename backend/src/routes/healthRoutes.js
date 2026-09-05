@@ -43,9 +43,13 @@ function handleHealth(req, res) {
  * Confirms that dependencies and service subsystems are ready to accept traffic.
  */
 function handleReadiness(req, res) {
+  const isProduction = process.env.NODE_ENV === 'production';
   const isDemo = process.env.APIFIX_DEMO_MODE === 'true';
-  const aiReady = isAiProviderConfigured() || isDemo || process.env.NODE_ENV !== 'production';
-  const dbReady = true; // In-memory fallback guarantees availability if Supabase is offline
+
+  const supabaseConfigured = isSupabaseConfigured();
+  // In true production (non-demo), a real database connection is strictly required
+  const dbReady = (!isProduction || isDemo) ? true : supabaseConfigured;
+  const aiReady = isAiProviderConfigured() || isDemo || !isProduction;
   const githubConfigured = Boolean(process.env.GITHUB_TOKEN && process.env.GITHUB_TOKEN.trim().length > 6);
   const stripeConfigured = isStripeConfigured();
 
@@ -57,9 +61,15 @@ function handleReadiness(req, res) {
   const isCoreReady = dbReady;
   const statusCode = isCoreReady ? 200 : 503;
 
+  const dbStatus = supabaseConfigured
+    ? 'ok (supabase-postgresql)'
+    : (isProduction && !isDemo
+        ? 'error (database_required_in_production)'
+        : (isDemo ? 'ok (demo-memory-fallback)' : 'ok (in-memory-fallback)'));
+
   const checks = {
     configuration: 'ok',
-    database: isSupabaseConfigured() ? 'ok (supabase-postgresql)' : 'ok (in-memory-fallback)',
+    database: dbStatus,
     aiProviders: {
       status: aiReady ? 'ok' : 'missing_credentials',
       activeProvider: getActiveProvider()?.provider || (isDemo ? 'demo-mode' : 'none'),

@@ -92,4 +92,36 @@ describe('Phase 23 — Database Deployment & Migration Safety Suite', () => {
     assert.strictEqual(readOp, 'IDEMPOTENT_READ');
     assert.strictEqual(writeOp, 'NON_IDEMPOTENT_WRITE');
   });
+
+  test('4.11 Production readiness fails with 503 if database is unconfigured in production', () => {
+    const { handleReadiness } = require('../src/routes/healthRoutes');
+    const origNodeEnv = process.env.NODE_ENV;
+    const origDemoMode = process.env.APIFIX_DEMO_MODE;
+    try {
+      process.env.NODE_ENV = 'production';
+      process.env.APIFIX_DEMO_MODE = 'false';
+
+      let statusCode = 200;
+      let responseBody = null;
+      const mockReq = { headers: {} };
+      const mockRes = {
+        status: (code) => {
+          statusCode = code;
+          return mockRes;
+        },
+        json: (data) => {
+          responseBody = data;
+          return mockRes;
+        }
+      };
+
+      handleReadiness(mockReq, mockRes);
+      assert.strictEqual(statusCode, 503);
+      assert.strictEqual(responseBody.status, 'not_ready');
+      assert.strictEqual(responseBody.checks.database, 'error (database_required_in_production)');
+    } finally {
+      process.env.NODE_ENV = origNodeEnv;
+      process.env.APIFIX_DEMO_MODE = origDemoMode;
+    }
+  });
 });
