@@ -11,6 +11,9 @@
     "db:status": "node src/services/migrationRunner.js status",
     "db:verify": "node src/services/migrationRunner.js verify"
   },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.3",
     "adm-zip": "^0.6.0",

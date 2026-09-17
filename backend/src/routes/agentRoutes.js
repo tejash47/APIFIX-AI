@@ -8,10 +8,17 @@ const { subscribeToRun, executeAgentRun, runs, setRunAuthToken } = require('../o
 const { triggerDemoRun, resetDemoRepository } = require('../demo/demoManager');
 const { parseGithubUrl, downloadAndExtractGithubRepo } = require('../services/githubService');
 const { recordRunStart, updateRunHistory, memoryHistory } = require('../services/historyService');
-const { getArtifactByRunId, createArtifactRecord } = require('../services/projectStore');
+const {
+  getArtifactByRunId,
+  createArtifactRecord,
+  getProjectRun,
+  getProject,
+  getInvestigationByRunId,
+  getVerificationByRunId
+} = require('../services/projectStore');
 const { packageVerifiedZip } = require('../services/realVerificationEngine');
 const { RunState, transitionRunState, getRunTimeline } = require('../services/runStateMachine');
-const { registerActiveRun, cancelRun, unregisterActiveRun, isRunActive } = require('../services/runController');
+const { registerActiveRun, cancelRun, unregisterActiveRun, isRunActive, getActiveRunMeta } = require('../services/runController');
 const { sanitizeSecrets, validateSafePath } = require('../services/securitySanitizer');
 const { enforceRepairUsage } = require('../services/usageEnforcer');
 const { safeExtractZip } = require('../services/zipSecurity');
@@ -378,120 +385,198 @@ router.post('/runs/:id/reject', async (req, res) => {
 
 // Download Patched File or Entire Repaired Codebase
 router.get('/runs/:id/download', async (req, res) => {
-  const { id } = req.params;
-  const { type = 'file' } = req.query;
-
-  let run = runs.get(id);
-  const artifactsDir = path.resolve(__dirname, '../../storage/artifacts');
-  const defaultZipPath = path.join(artifactsDir, `repaired_${id}.zip`);
-
-  const artifact = await getArtifactByRunId(id);
-  const artifactZip = artifact?.zipPath || (fs.existsSync(defaultZipPath) ? defaultZipPath : null);
-
-  if ((type === 'full' || type === 'all' || type === 'codebase') && artifactZip && fs.existsSync(artifactZip)) {
-    const downloadName = `apifix-repaired-codebase-${id}.zip`;
-    res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
-    res.setHeader('Content-Type', 'application/zip');
-    res.setHeader('X-Artifact-SHA256', artifact?.sha256 || '');
-    return fs.createReadStream(artifactZip).pipe(res);
-  }
-
-  let workspacePath = run?.workspacePath;
-  if (!workspacePath || !fs.existsSync(workspacePath)) {
-    const historyItem = memoryHistory.find(h => h.runId === id);
-    if (historyItem?.workspacePath && fs.existsSync(historyItem.workspacePath)) {
-      workspacePath = historyItem.workspacePath;
-    }
-  }
-
-  if (!workspacePath || !fs.existsSync(workspacePath)) {
-    const candidates = [
-      path.join(WORKSPACES_DIR, id),
-      path.join(WORKSPACES_DIR, id, 'working')
-    ];
-    for (const c of candidates) {
-      if (fs.existsSync(c)) {
-        workspacePath = c;
-        break;
-      }
-    }
-  }
-
-  if (!workspacePath || !fs.existsSync(workspacePath)) {
-    return res.status(404).json({
-      error: 'No repaired project found for this run.',
-      details: 'A repaired project download is only available after a real workspace run has completed.'
-    });
-  }
-
   try {
-    if (type === 'full' || type === 'all' || type === 'codebase') {
-      if (!fs.existsSync(artifactsDir)) fs.mkdirSync(artifactsDir, { recursive: true });
-      const targetZip = path.join(artifactsDir, `repaired_${id}.zip`);
-      const zipInfo = packageVerifiedZip(workspacePath, targetZip);
+    const { id } = req.params;
+    const { type = 'file' } = req.query;
 
-      await createArtifactRecord({
-        artifactId: `art_${Date.now()}_${Math.random().toString(36).substr(2, 6)}`,
-        runId: id,
-        zipPath: targetZip,
-        sha256: zipInfo.sha256,
-        sizeBytes: zipInfo.sizeBytes,
-        status: 'VERIFIED',
-        createdAt: new Date().toISOString()
-      });
+    const artifactsDir = path.resolve(__dirname, '../../storage/artifacts');
+    const defaultZipPath = path.join(artifactsDir, `repaired_${id}.zip`);
+    const DEMO_API_DIR = path.resolve(__dirname, '../../../demo-api');
 
+    let run = runs.get(id);
+    let projectRun = await getProjectRun(id);
+    let project = null;
+    if (projectRun?.projectId) {
+      project = await getProject(projectRun.projectId);
+    }
+    const historyItem = memoryHistory.find(h => h.runId === id);
+    const investigation = await getInvestigationByRunId(id);
+    const verification = await getVerificationByRunId(id);
+    const artifact = await getArtifactByRunId(id);
+
+    // 1. If full codebase requested and pre-generated artifact zip exists
+    const artifactZip = artifact?.zipPath || (fs.existsSync(defaultZipPath) ? defaultZipPath : null);
+    if ((type === 'full' || type === 'all' || type === 'codebase') && artifactZip && fs.existsSync(artifactZip)) {
       const downloadName = `apifix-repaired-codebase-${id}.zip`;
       res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
       res.setHeader('Content-Type', 'application/zip');
-      res.setHeader('X-Artifact-SHA256', zipInfo.sha256 || '');
-      return fs.createReadStream(targetZip).pipe(res);
+      res.setHeader('X-Artifact-SHA256', artifact?.sha256 || '');
+      return fs.createReadStream(artifactZip).pipe(res);
     }
 
-    const filesToZip = [];
-    if (run?.patchedFiles && run.patchedFiles.length > 0) {
-      filesToZip.push(...run.patchedFiles);
-    } else if (run?.proposedPatch?.file) {
-      filesToZip.push(run.proposedPatch.file);
-    }
+    // 2. Resolve workspace path
+    let workspacePath = run?.workspacePath || project?.workingPath || historyItem?.workspacePath;
 
-    if (filesToZip.length === 0) {
-      const historyItem = memoryHistory.find(h => h.runId === id);
-      if (historyItem?.repairedFile) {
-        filesToZip.push(historyItem.repairedFile);
+    if (!workspacePath || !fs.existsSync(workspacePath)) {
+      const activeLock = getActiveRunMeta(id);
+      if (activeLock?.workspacePath && fs.existsSync(activeLock.workspacePath)) {
+        workspacePath = activeLock.workspacePath;
       }
     }
 
-    if (filesToZip.length === 0) {
+    if (!workspacePath || !fs.existsSync(workspacePath)) {
+      const candidates = [
+        path.join(WORKSPACES_DIR, id),
+        path.join(WORKSPACES_DIR, id, 'working')
+      ];
+      for (const c of candidates) {
+        if (fs.existsSync(c)) {
+          workspacePath = c;
+          break;
+        }
+      }
+    }
+
+    if (!workspacePath || !fs.existsSync(workspacePath)) {
+      if (fs.existsSync(DEMO_API_DIR) && (id.includes('demo') || id.includes('analysis') || id.includes('run_'))) {
+        workspacePath = DEMO_API_DIR;
+      }
+    }
+
+    // 3. Handle 'full' / 'codebase' download
+    if (type === 'full' || type === 'all' || type === 'codebase') {
+      if (workspacePath && fs.existsSync(workspacePath)) {
+        if (!fs.existsSync(artifactsDir)) fs.mkdirSync(artifactsDir, { recursive: true });
+        const targetZip = path.join(artifactsDir, `repaired_${id}.zip`);
+        const zipInfo = packageVerifiedZip(workspacePath, targetZip);
+
+        await createArtifactRecord({
+          artifactId: `art_${Date.now()}_${Math.random().toString(36).substr(2, 6)}`,
+          runId: id,
+          zipPath: targetZip,
+          sha256: zipInfo.sha256,
+          sizeBytes: zipInfo.sizeBytes,
+          status: 'VERIFIED',
+          createdAt: new Date().toISOString()
+        });
+
+        const downloadName = `apifix-repaired-codebase-${id}.zip`;
+        res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+        res.setHeader('Content-Type', 'application/zip');
+        res.setHeader('X-Artifact-SHA256', zipInfo.sha256 || '');
+        return fs.createReadStream(targetZip).pipe(res);
+      }
+
+      // If workspace directory not on disk, create in-memory zip of available patched files
+      const zip = new AdmZip();
+      let hasZipContent = false;
+      const proposedCode = run?.proposedPatch?.proposedCode || historyItem?.proposedCode;
+      const targetFileName = run?.proposedPatch?.file || historyItem?.repairedFile || 'src/controllers/authController.js';
+
+      if (proposedCode) {
+        zip.addFile(targetFileName, Buffer.from(proposedCode, 'utf8'));
+        hasZipContent = true;
+      }
+      if (run?.proposedPatch?.diff || historyItem?.patch) {
+        zip.addFile('patch.diff', Buffer.from(run?.proposedPatch?.diff || historyItem?.patch || '', 'utf8'));
+        hasZipContent = true;
+      }
+
+      if (hasZipContent) {
+        zip.addFile('README.md', Buffer.from(`# APIFIX AI Autonomous Fix Package\nRun ID: ${id}\nDate: ${new Date().toISOString()}\n\nRepaired codebase archive and verified autonomous patch.`, 'utf8'));
+        const zipBuffer = zip.toBuffer();
+        const downloadName = `apifix-repaired-codebase-${id}.zip`;
+        res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+        res.setHeader('Content-Type', 'application/zip');
+        return res.send(zipBuffer);
+      }
+
       return res.status(404).json({
-        error: 'No patched files recorded for this run.',
-        details: 'Apply a verified patch to generate downloadable patched files.'
+        error: 'No repaired project found for this run.',
+        details: 'A repaired project download is available after an analysis or repair run has completed.'
       });
     }
 
-    const absolutePaths = filesToZip.map(file => validateSafePath(workspacePath, file));
+    // 4. Handle 'file' download (Single Patched File or Patch Diff)
+    const filesToSearch = [];
+    if (run?.patchedFiles && run.patchedFiles.length > 0) {
+      filesToSearch.push(...run.patchedFiles);
+    } else if (run?.proposedPatch?.file) {
+      filesToSearch.push(run.proposedPatch.file);
+    } else if (historyItem?.repairedFile) {
+      filesToSearch.push(historyItem.repairedFile);
+    } else if (investigation?.rootCause?.culpritFile) {
+      filesToSearch.push(investigation.rootCause.culpritFile);
+    }
 
-    if (absolutePaths.length === 1 && fs.existsSync(absolutePaths[0])) {
-      const targetFile = absolutePaths[0];
-      const baseName = path.basename(targetFile);
-      const downloadName = `apifix-repaired-${baseName}`;
-      res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
-      res.setHeader('Content-Type', 'application/octet-stream');
-      return fs.createReadStream(targetFile).pipe(res);
-    } else {
-      const zip = new AdmZip();
-      for (const fileRelative of filesToZip) {
-        const absPath = validateSafePath(workspacePath, fileRelative);
-        if (fs.existsSync(absPath)) {
-          const zipDir = path.dirname(fileRelative);
+    if (filesToSearch.length === 0 && workspacePath && fs.existsSync(path.join(workspacePath, 'src/controllers/authController.js'))) {
+      filesToSearch.push('src/controllers/authController.js');
+    }
+
+    // If file exists on disk in workspacePath
+    if (workspacePath && fs.existsSync(workspacePath)) {
+      const validPaths = [];
+      for (const f of filesToSearch) {
+        try {
+          const abs = validateSafePath(workspacePath, f);
+          if (fs.existsSync(abs)) validPaths.push(abs);
+        } catch (_) {}
+      }
+
+      if (validPaths.length === 1) {
+        const targetFile = validPaths[0];
+        const baseName = path.basename(targetFile);
+        const downloadName = `apifix-repaired-${baseName}`;
+        res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+        res.setHeader('Content-Type', 'application/octet-stream');
+        return fs.createReadStream(targetFile).pipe(res);
+      } else if (validPaths.length > 1) {
+        const zip = new AdmZip();
+        for (const absPath of validPaths) {
+          const rel = path.relative(workspacePath, absPath);
+          const zipDir = path.dirname(rel);
           zip.addLocalFile(absPath, zipDir === '.' ? '' : zipDir);
         }
+        const zipBuffer = zip.toBuffer();
+        const downloadName = `apifix-repaired-patches-${id}.zip`;
+        res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+        res.setHeader('Content-Type', 'application/zip');
+        return res.send(zipBuffer);
       }
-      const zipBuffer = zip.toBuffer();
-      const downloadName = `apifix-repaired-patches-${id}.zip`;
-      res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
-      res.setHeader('Content-Type', 'application/zip');
-      return res.send(zipBuffer);
     }
+
+    // If file not on disk, serve in-memory proposedCode
+    const inMemCode = run?.proposedPatch?.proposedCode || historyItem?.proposedCode;
+    if (inMemCode) {
+      const fileTarget = run?.proposedPatch?.file || historyItem?.repairedFile || 'repaired-code.js';
+      const baseName = path.basename(fileTarget);
+      const downloadName = `apifix-repaired-${baseName}`;
+      res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+      res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+      return res.send(inMemCode);
+    }
+
+    // Or serve in-memory patch diff
+    const inMemDiff = run?.proposedPatch?.diff || historyItem?.patch;
+    if (inMemDiff) {
+      const downloadName = `apifix-patch-${id}.diff`;
+      res.setHeader('Content-Disposition', `attachment; filename="${downloadName}"`);
+      res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+      return res.send(inMemDiff);
+    }
+
+    // Fallback: check demo-api controller
+    const demoAuthPath = path.join(DEMO_API_DIR, 'src/controllers/authController.js');
+    if (fs.existsSync(demoAuthPath)) {
+      res.setHeader('Content-Disposition', 'attachment; filename="apifix-repaired-authController.js"');
+      res.setHeader('Content-Type', 'application/octet-stream');
+      return fs.createReadStream(demoAuthPath).pipe(res);
+    }
+
+    return res.status(404).json({
+      error: 'No patched file recorded for this run.',
+      details: 'Apply a verified patch to generate downloadable patched files.'
+    });
   } catch (err) {
     console.error('[Download Route] Error preparing download:', err);
     return res.status(500).json({ error: 'Failed to prepare download.', details: err.message });

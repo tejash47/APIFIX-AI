@@ -271,7 +271,7 @@ describe('APIFIX V2 — Phase 11: Production Platform & Observability Tests', ()
     assert.ok(fs.existsSync(composePath), 'docker-compose.yml must exist');
 
     const dockerfile = fs.readFileSync(dockerfilePath, 'utf8');
-    assert.ok(dockerfile.includes('FROM node:20-alpine'));
+    assert.ok(dockerfile.includes('FROM node:22-alpine') || dockerfile.includes('FROM node:20-alpine'));
     assert.ok(dockerfile.includes('HEALTHCHECK'));
     assert.ok(dockerfile.includes('CMD ["node", "src/server.js"]'));
   });

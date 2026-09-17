@@ -16,8 +16,8 @@ describe('Phase 23 — Production Docker Configuration Suite', () => {
     const dockerfilePath = path.join(__dirname, '../Dockerfile');
     assert.ok(fs.existsSync(dockerfilePath), 'backend/Dockerfile must exist');
     const content = fs.readFileSync(dockerfilePath, 'utf8');
-    assert.ok(content.includes('FROM node:20-alpine AS deps'));
-    assert.ok(content.includes('FROM node:20-alpine AS runner'));
+    assert.ok(content.includes('FROM node:22-alpine AS deps') || content.includes('FROM node:20-alpine AS deps'));
+    assert.ok(content.includes('FROM node:22-alpine AS runner') || content.includes('FROM node:20-alpine AS runner'));
   });
 
   test('1.2 Backend Dockerfile enforces non-root user execution', () => {
@@ -44,9 +44,9 @@ describe('Phase 23 — Production Docker Configuration Suite', () => {
     const dockerfilePath = path.join(__dirname, '../../frontend/Dockerfile');
     assert.ok(fs.existsSync(dockerfilePath), 'frontend/Dockerfile must exist');
     const content = fs.readFileSync(dockerfilePath, 'utf8');
-    assert.ok(content.includes('FROM node:20-alpine AS deps'));
-    assert.ok(content.includes('FROM node:20-alpine AS builder'));
-    assert.ok(content.includes('FROM node:20-alpine AS runner'));
+    assert.ok(content.includes('FROM node:22-alpine AS deps') || content.includes('FROM node:20-alpine AS deps'));
+    assert.ok(content.includes('FROM node:22-alpine AS builder') || content.includes('FROM node:20-alpine AS builder'));
+    assert.ok(content.includes('FROM node:22-alpine AS runner') || content.includes('FROM node:20-alpine AS runner'));
   });
 
   test('1.6 Frontend Dockerfile enforces non-root nextjs user', () => {

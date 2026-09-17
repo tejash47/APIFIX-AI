@@ -102,7 +102,63 @@ export function createRunEventSource(runId: string): EventSource {
 }
 
 export function getDownloadUrl(runId: string, type: 'file' | 'full' = 'full'): string {
-  return `${BACKEND_URL}/api/runs/${runId}/download?type=${type}`;
+  return `${BACKEND_URL}/api/runs/${encodeURIComponent(runId)}/download?type=${type}`;
+}
+
+/**
+ * Triggers a seamless in-browser file download for a run's patched file or full codebase archive.
+ * Gracefully extracts filename from Content-Disposition and throws structured error if download is not available.
+ */
+export async function downloadRunArtifact(
+  runId: string,
+  type: 'file' | 'full' = 'file',
+  token?: string | null
+): Promise<string> {
+  const headers: Record<string, string> = {};
+  if (token) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
+
+  const url = getDownloadUrl(runId, type);
+  const response = await fetch(url, { headers });
+
+  if (!response.ok) {
+    let errorMsg = 'Download failed';
+    try {
+      const errJson = await response.json();
+      errorMsg = errJson.details || errJson.error || `Server returned status ${response.status}`;
+    } catch {
+      errorMsg = `Server returned status ${response.status}`;
+    }
+    throw new Error(errorMsg);
+  }
+
+  const blob = await response.blob();
+  const disposition = response.headers.get('content-disposition') || '';
+  let filename = '';
+  const filenameMatch = disposition.match(/filename\*?=(?:UTF-8'')?["']?([^"';\n]+)["']?/i);
+  if (filenameMatch && filenameMatch[1]) {
+    filename = decodeURIComponent(filenameMatch[1].trim());
+  }
+  if (!filename) {
+    filename = type === 'full' ? `apifix-repaired-codebase-${runId}.zip` : `apifix-repaired-${runId}.js`;
+  }
+
+  const blobUrl = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.style.display = 'none';
+  a.href = blobUrl;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    window.URL.revokeObjectURL(blobUrl);
+    if (a.parentNode) {
+      a.parentNode.removeChild(a);
+    }
+  }, 200);
+
+  return filename;
 }
 
 export interface DetectedProjectCandidate {

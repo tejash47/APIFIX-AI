@@ -3,7 +3,7 @@
 # =========================================================================
 
 # Stage 1: Dependency Installation
-FROM node:20-alpine AS deps
+FROM node:22-alpine AS deps
 WORKDIR /app
 
 RUN apk add --no-cache libc6-compat
@@ -12,7 +12,7 @@ COPY backend/package.json backend/package-lock.json* ./
 RUN npm ci --only=production --no-audit --no-fund
 
 # Stage 2: Production Runner
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS runner
 WORKDIR /app
 
 RUN apk add --no-cache wget

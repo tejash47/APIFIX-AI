@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Terminal, RefreshCw, Download, FileCode, Archive, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { downloadRunArtifact } from '../lib/api';
 
 interface VerificationResult {
   status: string;
@@ -49,15 +50,23 @@ export default function VerificationTerminal({
   const isVerified = verification.verified || verification.status === 'VERIFIED';
   const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
 
-  const handleDownloadFullCodebase = () => {
+  const handleDownloadFullCodebase = async () => {
     if (runId) {
-      window.open(`${BACKEND_URL}/api/runs/${runId}/download?type=full`, '_blank');
+      try {
+        await downloadRunArtifact(runId, 'full');
+      } catch (err: any) {
+        console.error('[VerificationTerminal] Full codebase download error:', err.message);
+      }
     }
   };
 
-  const handleDownloadSingleFile = () => {
+  const handleDownloadSingleFile = async () => {
     if (runId) {
-      window.open(`${BACKEND_URL}/api/runs/${runId}/download?type=file`, '_blank');
+      try {
+        await downloadRunArtifact(runId, 'file');
+      } catch (err: any) {
+        console.error('[VerificationTerminal] Patched file download error:', err.message);
+      }
     }
   };
 

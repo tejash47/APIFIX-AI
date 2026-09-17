@@ -35,6 +35,7 @@ import {
   verifyProjectPatch,
   fetchVerificationReport,
   createVerificationEventSource,
+  downloadRunArtifact,
   type ProjectUploadResponse,
   type AIInvestigationResponse,
   type ProjectPatchResponse,
@@ -736,18 +737,32 @@ export default function DashboardPage() {
     }
   };
 
-  const handleDownloadFullCodebase = () => {
-    if (!activeRunId) return;
-    const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
-    window.open(`${BACKEND_URL}/api/runs/${activeRunId}/download?type=full`, '_blank');
-    toast.success('Downloading Codebase', 'Full repaired repository ZIP archive.');
+  const handleDownloadFullCodebase = async () => {
+    if (!activeRunId) {
+      toast.error('No Active Run', 'Please select or execute a run first.');
+      return;
+    }
+    try {
+      toast.info('Preparing Codebase', 'Bundling repaired repository ZIP archive...');
+      const filename = await downloadRunArtifact(activeRunId, 'full', token);
+      toast.success('Download Complete', `Saved ${filename} to your downloads.`);
+    } catch (err: any) {
+      toast.error('Download Unavailable', err.message || 'Repaired codebase archive is not available.');
+    }
   };
 
-  const handleDownloadPatchedFile = () => {
-    if (!activeRunId) return;
-    const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
-    window.open(`${BACKEND_URL}/api/runs/${activeRunId}/download?type=file`, '_blank');
-    toast.success('Downloading Patched File', 'Single verified source code file.');
+  const handleDownloadPatchedFile = async () => {
+    if (!activeRunId) {
+      toast.error('No Active Run', 'Please select or execute a run first.');
+      return;
+    }
+    try {
+      toast.info('Preparing Patched File', 'Fetching verified source code file...');
+      const filename = await downloadRunArtifact(activeRunId, 'file', token);
+      toast.success('Download Complete', `Saved ${filename} to your downloads.`);
+    } catch (err: any) {
+      toast.error('Download Unavailable', err.message || 'Patched source file is not available.');
+    }
   };
 
   const handleResetDashboard = () => {

@@ -7,12 +7,18 @@ let supabase = null;
 
 if (SUPABASE_URL && SUPABASE_KEY) {
   try {
-    supabase = createClient(SUPABASE_URL, SUPABASE_KEY, {
+    const clientOptions = {
       auth: {
         persistSession: false,
         autoRefreshToken: false
       }
-    });
+    };
+    if (typeof globalThis !== 'undefined' && globalThis.WebSocket) {
+      clientOptions.realtime = {
+        websocket: globalThis.WebSocket
+      };
+    }
+    supabase = createClient(SUPABASE_URL, SUPABASE_KEY, clientOptions);
     console.log('[APIFIX Database] Supabase client initialized successfully.');
   } catch (err) {
     console.warn('[APIFIX Database] Failed to initialize Supabase client:', err.message);
