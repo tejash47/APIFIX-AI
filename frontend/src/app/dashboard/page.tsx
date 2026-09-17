@@ -220,6 +220,18 @@ export default function DashboardPage() {
       const params = new URLSearchParams(window.location.search);
       const tab = params.get('tab');
       if (tab) setCurrentTab(tab);
+
+      const billingStatus = params.get('billing');
+      if (billingStatus === 'success') {
+        toast.success('Subscription Upgraded', 'Your plan has been activated successfully!');
+        window.history.replaceState({}, document.title, window.location.pathname);
+      } else if (billingStatus === 'credits_success') {
+        toast.success('Credits Added', 'Your repair credits have been added to your workspace!');
+        window.history.replaceState({}, document.title, window.location.pathname);
+      } else if (billingStatus === 'cancel') {
+        toast.info('Checkout Cancelled', 'No charges were made to your account.');
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
     }
   }, []);
 

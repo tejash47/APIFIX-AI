@@ -13,7 +13,8 @@ const {
   getOrCreateCustomer,
   createCheckoutSession,
   createBillingPortalSession,
-  constructWebhookEvent
+  constructWebhookEvent,
+  isStripeConfigured
 } = require('./stripeClient');
 
 const DATA_DIR = path.resolve(__dirname, '../../data');
@@ -481,7 +482,8 @@ async function createWorkspaceCheckoutSession(workspaceId, { planId, creditPackI
 
   return {
     sessionId: session.id,
-    url: session.url
+    url: session.url,
+    isMock: !isStripeConfigured()
   };
 }
 

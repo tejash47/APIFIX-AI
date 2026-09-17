@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../lib/authContext';
+import { useToast } from '../lib/ToastContext';
 import {
   fetchWorkspaceBilling,
   fetchBillingPlans,
@@ -82,6 +83,8 @@ export default function BillingModal({
     }
   }
 
+  const { toast } = useToast();
+
   async function handlePlanCheckout(planId: string) {
     if (billing?.plan === planId) return;
     setIsProcessing(`plan_${planId}`);
@@ -97,7 +100,13 @@ export default function BillingModal({
         token
       );
       if (res?.url) {
-        window.location.href = res.url;
+        if (res.isMock || res.url.includes('cs_test_')) {
+          toast.success('Sandbox Upgrade Completed', `Simulated ${planId.toUpperCase()} activation in sandbox.`);
+          onClose();
+          window.location.href = `${window.location.origin}/dashboard?billing=success`;
+        } else {
+          window.location.href = res.url;
+        }
       }
     } catch (err: any) {
       setErrorMsg(err.message || 'Failed to start Stripe checkout.');
@@ -119,7 +128,13 @@ export default function BillingModal({
         token
       );
       if (res?.url) {
-        window.location.href = res.url;
+        if (res.isMock || res.url.includes('cs_test_')) {
+          toast.success('Sandbox Top-Up Completed', 'Simulated credits added to workspace in sandbox.');
+          onClose();
+          window.location.href = `${window.location.origin}/dashboard?billing=credits_success`;
+        } else {
+          window.location.href = res.url;
+        }
       }
     } catch (err: any) {
       setErrorMsg(err.message || 'Failed to purchase credit pack.');
@@ -137,7 +152,12 @@ export default function BillingModal({
         token
       );
       if (res?.url) {
-        window.location.href = res.url;
+        if (res.isMock || res.url.includes('bps_test_')) {
+          toast.info('Billing Portal (Sandbox)', 'Customer billing portal simulation active.');
+          onClose();
+        } else {
+          window.location.href = res.url;
+        }
       }
     } catch (err: any) {
       setErrorMsg(err.message || 'Failed to open Stripe billing portal.');
