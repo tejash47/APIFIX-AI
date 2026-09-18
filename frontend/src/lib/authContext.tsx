@@ -6,6 +6,7 @@ export interface User {
   id: string;
   email: string;
   name: string;
+  phone?: string;
   role?: string;
 }
 
@@ -30,8 +31,8 @@ interface AuthContextType {
   activeWorkspaceRole: string;
   isAdmin: boolean;
   isDemoUser: boolean;
-  login: (email: string, pass: string) => Promise<boolean>;
-  register: (email: string, pass: string, name: string) => Promise<boolean>;
+  login: (identifier: string, pass: string) => Promise<boolean>;
+  register: (email: string, pass: string, name: string, phone?: string) => Promise<boolean>;
   logout: () => void;
   setActiveWorkspaceId: (id: string) => void;
   refreshWorkspaces: () => Promise<void>;
@@ -121,12 +122,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const login = async (email: string, pass: string): Promise<boolean> => {
+  const login = async (identifier: string, pass: string): Promise<boolean> => {
     try {
       const res = await fetch(`${BACKEND_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password: pass })
+        body: JSON.stringify({ identifier, email: identifier, password: pass })
       });
       if (res.ok) {
         const data = await res.json();
@@ -152,12 +153,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const register = async (email: string, pass: string, name: string): Promise<boolean> => {
+  const register = async (email: string, pass: string, name: string, phone?: string): Promise<boolean> => {
     try {
       const res = await fetch(`${BACKEND_URL}/api/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password: pass, name })
+        body: JSON.stringify({ email, password: pass, name, phone })
       });
       if (res.ok) {
         const data = await res.json();

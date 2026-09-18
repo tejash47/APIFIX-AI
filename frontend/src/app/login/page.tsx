@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '../../lib/authContext';
-import { Shield, Lock, Mail, ArrowRight } from 'lucide-react';
+import { Shield, Lock, UserCheck, ArrowRight, KeyRound } from 'lucide-react';
 
 export default function LoginPage() {
-  const [email, setEmail] = useState('');
+  const [identifier, setIdentifier] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -18,12 +18,12 @@ export default function LoginPage() {
     e.preventDefault();
     setError('');
     setIsLoading(true);
-    const success = await login(email, password);
+    const success = await login(identifier, password);
     setIsLoading(false);
     if (success) {
       router.push('/dashboard');
     } else {
-      setError('Invalid email or password. Please verify your credentials or create an account.');
+      setError('Invalid credentials. Please verify your Email, Phone, Name or User ID and Password.');
     }
   };
 
@@ -54,22 +54,33 @@ export default function LoginPage() {
         {/* Login Form */}
         <form onSubmit={handleSubmit} className="space-y-4 text-xs font-mono">
           <div>
-            <label className="block text-gray-300 mb-1 font-medium">Email Address</label>
+            <label className="block text-gray-300 mb-1 font-medium">
+              Email, Phone, Name, or User ID
+            </label>
             <div className="relative">
-              <Mail className="w-4 h-4 text-gray-500 absolute left-3 top-3" />
+              <UserCheck className="w-4 h-4 text-gray-500 absolute left-3 top-3" />
               <input
-                type="email"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
+                type="text"
+                value={identifier}
+                onChange={e => setIdentifier(e.target.value)}
                 required
                 className="w-full pl-9 pr-3 py-2.5 rounded-lg border border-panelBorder bg-bg text-white focus:outline-none focus:border-indigo-500 transition-all placeholder:text-gray-600"
-                placeholder="you@example.com"
+                placeholder="alex@apifix.dev / +1 555... / usr_alex_..."
               />
             </div>
           </div>
 
           <div>
-            <label className="block text-gray-300 mb-1 font-medium">Password</label>
+            <div className="flex items-center justify-between mb-1">
+              <label className="text-gray-300 font-medium">Password</label>
+              <Link 
+                href="/forgot-password" 
+                className="text-[11px] text-indigo-400 hover:text-indigo-300 hover:underline flex items-center gap-1 font-mono"
+              >
+                <KeyRound className="w-3 h-3" />
+                Forgot password?
+              </Link>
+            </div>
             <div className="relative">
               <Lock className="w-4 h-4 text-gray-500 absolute left-3 top-3" />
               <input
@@ -103,6 +114,3 @@ export default function LoginPage() {
     </div>
   );
 }
-
-
-
